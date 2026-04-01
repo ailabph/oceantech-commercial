@@ -25,13 +25,13 @@
 
 It started in 1981 in Maribago — a small stretch of coast on Lapu-Lapu City's eastern shore, where the Cebu Strait runs deep and the current teaches you respect fast. Back then, it was recreational diving. Reef work. Taking people down and bringing them back up. You learn a lot in water like that. You learn how to read what the ocean is telling you. You learn that the plan you made on the surface doesn't always survive the first ten meters.
 
-That went on for 36 years. Thirty-six years of salt water, sun, and solving problems at depth before Oceantech Commercial Diving became an actual company in 2016. But the truth is, by then, the work had already been the work for a long time. The transition to commercial diving — welding, cutting, hull maintenance, structural repair, NDT inspection — wasn't a reinvention. It was just putting a name to what the crew had been building toward for decades.
+That went on for 35 years. Thirty-five years of salt water, sun, and solving problems at depth before Oceantech Commercial Diving became an actual company in 2016. But the truth is, by then, the work had already been the work for a long time. The transition to commercial diving — welding, cutting, hull maintenance, structural repair, NDT inspection — wasn't a reinvention. It was just putting a name to what the crew had been building toward for decades.
 
 We're still based in Maribago. The boats still go out from the same water. The difference now is the jobs are bigger, the stakes are higher, and the people calling us need things done right the first time. That part hasn't changed, actually. It was always like that.
 
 ### Mission
 
-To do honest, skilled work beneath the surface — the kind that holds, the kind you can trust, the kind that comes from a crew with four decades of salt water in their veins. We serve the maritime and industrial sectors of the Philippines with the care of people who actually love this work and the standards of people who take it seriously.
+To do honest, skilled work beneath the surface — the kind that holds, the kind you can trust, the kind that comes from a crew with 45 years of salt water in their veins. We serve the maritime and industrial sectors of the Philippines with the care of people who actually love this work and the standards of people who take it seriously.
 
 ### Vision
 
@@ -51,7 +51,7 @@ To be the commercial diving crew that people in the Visayas and across the Phili
 
 ### Positioning Statement
 
-For ship owners, port authorities, and marine operators in the Visayas and greater Philippines who are tired of choosing between faceless corporate contractors and unproven local crews, **Oceantech Commercial Diving** is the authentic, crew-driven commercial diving team that delivers **real expertise from real people with over four decades in the water**, because we are the team that was built on the dock, not in a boardroom — and the work we do speaks louder than any brochure ever could.
+For ship owners, port authorities, and marine operators in the Visayas and greater Philippines who are tired of choosing between faceless corporate contractors and unproven local crews, **Oceantech Commercial Diving** is the authentic, crew-driven commercial diving team that delivers **real expertise from real people with 45 years in the water**, because we are the team that was built on the dock, not in a boardroom — and the work we do speaks louder than any brochure ever could.
 
 ### Brand Personality
 
@@ -74,7 +74,7 @@ For ship owners, port authorities, and marine operators in the Visayas and great
 
 1. **We do the work the tide won't wait for.** (Primary)
 2. Salt water runs through everything we do.
-3. Forty-six years. Still getting our hands wet.
+3. Forty-five years. Still getting our hands wet.
 4. The job's not done till it holds.
 5. Been down there. Know what it takes.
 
@@ -398,7 +398,19 @@ JetBrains Mono is used when displaying technical data where a monospaced font im
 | **Heritage Accent** | Context-dependent | Bitter | Italic (400i) | Mixed case | "Est. 1981", founding dates, editorial moments |
 | **Technical Data** | 14px / 20px | JetBrains Mono | Regular (400) | As appropriate | Specifications, certifications, measurements |
 
-### 4.3 CSS Reference
+### 4.3 Responsive Type Scale
+
+| Level | Desktop | Tablet (< 1024px) | Mobile (< 640px) |
+|-------|---------|-------------------|-------------------|
+| **H1** | 48px / 56px | 38px / 46px | 30px / 38px |
+| **H2** | 36px / 44px | 30px / 38px | 26px / 34px |
+| **H3** | 24px / 32px | 22px / 30px | 20px / 28px |
+| **H4** | 20px / 28px | 18px / 26px | 18px / 26px |
+| **Body Large** | 18px / 28px | 18px / 28px | 16px / 26px |
+| **Body** | 16px / 24px | 16px / 24px | 16px / 24px |
+| **Pull Quote** | 24px / 36px | 22px / 32px | 20px / 30px |
+
+### 4.4 CSS Reference
 
 ```css
 /* ==============================
@@ -511,7 +523,7 @@ body, p {
 }
 ```
 
-### 4.4 Typography Rules
+### 4.5 Typography Rules
 
 1. **Heading color:** H1 and H2 headings use Deep Sea Green (#1B4332). H3 and H4 headings use Espresso (#3C2415).
 2. **Body text color:** Always Espresso (#3C2415) on cream/light backgrounds, Warm Cream (#FAF3E8) on dark backgrounds.
@@ -523,7 +535,7 @@ body, p {
 8. **No decorative fonts:** Do not introduce additional typefaces. The four-font system covers all use cases. If you need another "feel," adjust weight, case, or spacing within the existing families.
 9. **Uppercase usage:** Uppercase is reserved for H1 (optional), captions/labels, and navigation. Body text and subheadings should never be fully uppercase.
 
-### 4.5 Web-Safe Fallbacks
+### 4.6 Web-Safe Fallbacks
 
 | Brand Font | Fallback Stack |
 |------------|---------------|
@@ -678,7 +690,7 @@ The tone adjusts by context while the voice remains constant:
 - Write in active voice. Say "We inspect hulls" not "Hull inspections are conducted by our team."
 - Use short sentences. If a sentence needs a semicolon, it probably needs to be two sentences.
 - Lead with the point. Put the most important information first.
-- Be specific. "46 years" is better than "decades." "Maribago, Lapu-Lapu City" is better than "the Philippines."
+- Be specific. "45 years" is better than "decades." "Maribago, Lapu-Lapu City" is better than "the Philippines."
 - Use contractions in informal contexts (website, social media). They sound more natural and human.
 - Paragraphs: 2-4 sentences for web content. Never more than 5 for any context. This brand breathes.
 
@@ -728,7 +740,7 @@ The tone adjusts by context while the voice remains constant:
 > Some crews talk about the water. We work in it.
 
 **Hero subheadline:**
-> Oceantech is a commercial diving outfit from Cebu — underwater welding, hull work, structural repair — built on 46 years of actually being in the ocean.
+> Oceantech is a commercial diving outfit from Cebu — underwater welding, hull work, structural repair — built on 45 years of actually being in the ocean.
 
 **Service intro:**
 > No fancy categories. No marketing names for simple things. This is the work — the stuff our divers gear up for, get wet for, and get done.
@@ -737,7 +749,7 @@ The tone adjusts by context while the voice remains constant:
 > It started in 1981 in Maribago — a small stretch of coast on Lapu-Lapu City's eastern shore, where the Cebu Strait runs deep and the current teaches you respect fast.
 
 **Pull quote:**
-> _"We didn't start this company because we saw a market opportunity. We started it because we'd already been doing the work for 36 years and figured it was time to make it official."_
+> _"We didn't start this company because we saw a market opportunity. We started it because we'd already been doing the work for 35 years and figured it was time to make it official."_
 
 **CTA line:**
 > Got a job that needs doing underwater? We're not hard to reach and we don't make you jump through hoops.

@@ -2,7 +2,7 @@
 
 ## Brand Purpose Statement
 
-Oceantech Commercial Diving exists because the ocean demands real people doing real work. We are divers first — hands in the water, boots on the deck, built on four decades of showing up when it matters. We don't dress up what we do in corporate language. We weld, we cut, we inspect, we repair — and we do it with the kind of honest craftsmanship that only comes from a lifetime spent beneath the surface. This company was built by people who love the ocean and respect the work. Everything else follows from that.
+Oceantech Commercial Diving exists because the ocean demands real people doing real work. We are divers first — hands in the water, boots on the deck, built on 45 years of showing up when it matters. We don't dress up what we do in corporate language. We weld, we cut, we inspect, we repair — and we do it with the kind of honest craftsmanship that only comes from a lifetime spent beneath the surface. This company was built by people who love the ocean and respect the work. Everything else follows from that.
 
 ---
 
@@ -61,7 +61,7 @@ Oceantech Commercial Diving exists because the ocean demands real people doing r
 
 ## Competitive Positioning Statement
 
-For ship owners, port authorities, and marine operators in the Visayas and greater Philippines who are tired of choosing between faceless corporate contractors and unproven local crews, **Oceantech Commercial Diving** is the authentic, crew-driven commercial diving team that delivers **real expertise from real people with over four decades in the water**, because we are the team that was built on the dock, not in a boardroom — and the work we do speaks louder than any brochure ever could.
+For ship owners, port authorities, and marine operators in the Visayas and greater Philippines who are tired of choosing between faceless corporate contractors and unproven local crews, **Oceantech Commercial Diving** is the authentic, crew-driven commercial diving team that delivers **real expertise from real people with 45 years in the water**, because we are the team that was built on the dock, not in a boardroom — and the work we do speaks louder than any brochure ever could.
 
 ---
 

@@ -13,7 +13,7 @@
 
 1. **We do the work the tide won't wait for.**
 2. **Salt water runs through everything we do.**
-3. **Forty-six years. Still getting our hands wet.**
+3. **Forty-five years. Still getting our hands wet.**
 4. **The job's not done till it holds.**
 5. **Been down there. Know what it takes.**
 
@@ -25,7 +25,7 @@
 Some crews talk about the water. We work in it.
 
 **Subheadline:**
-Oceantech is a commercial diving outfit from Cebu — underwater welding, hull work, structural repair — built on 46 years of actually being in the ocean.
+Oceantech is a commercial diving outfit from Cebu — underwater welding, hull work, structural repair — built on 45 years of actually being in the ocean.
 
 **CTA Button Text:**
 - Option A: Tell Us What You Need
@@ -50,13 +50,13 @@ This isn't a company story. It's a diving story.
 It started in 1981 in Maribago — a small stretch of coast on Lapu-Lapu City's eastern shore, where the Cebu Strait runs deep and the current teaches you respect fast. Back then, it was recreational diving. Reef work. Taking people down and bringing them back up. The founders were the first PADI-certified instructors in the Philippines — pioneers who didn't just learn to dive, they helped set the standard for an entire country. You learn a lot in water like that. You learn how to read what the ocean is telling you. You learn that the plan you made on the surface doesn't always survive the first ten meters. And you learn that the only gear that matters is the stuff that works when things go sideways. This has always been a family operation — the knowledge, the discipline, the deep respect for the water passed down through generations.
 
 **Paragraph 2:**
-That went on for 36 years. Thirty-six years of salt water, sun, and solving problems at depth before Oceantech Commercial Diving became an actual company in 2016. But the truth is, by then, the work had already been the work for a long time. The transition to commercial diving — welding, cutting, hull maintenance, structural repair, NDT inspection — wasn't a reinvention. It was just putting a name to what the crew had been building toward for decades.
+That went on for 35 years. Thirty-five years of salt water, sun, and solving problems at depth before Oceantech Commercial Diving became an actual company in 2016. But the truth is, by then, the work had already been the work for a long time. The transition to commercial diving — welding, cutting, hull maintenance, structural repair, NDT inspection — wasn't a reinvention. It was just putting a name to what the crew had been building toward for decades.
 
 **Paragraph 3:**
 We're still based in Maribago. The boats still go out from the same water. The difference now is the jobs are bigger, the stakes are higher, and the people calling us need things done right the first time. That part hasn't changed, actually. It was always like that.
 
 **Pull-Quote:**
-_"We didn't start this company because we saw a market opportunity. We started it because we'd already been doing the work for 36 years and figured it was time to make it official."_
+_"We didn't start this company because we saw a market opportunity. We started it because we'd already been doing the work for 35 years and figured it was time to make it official."_
 
 ---
 
@@ -115,7 +115,7 @@ When it's done, you get a report. Photos, video, measurements, what we found, wh
 Why people keep calling us back.
 
 ### 1. We've been in this water a long time.
-Since 1981. That's not a number we throw around to sound impressive — it's just how long we've been doing this. The ocean around Cebu has been our training ground, our classroom, and our workplace for over four decades. That kind of time in the water teaches you things no certification course will. Our founders were the first PADI-certified instructors in the Philippines — they helped build the diving community in this country from the ground up. This is a family business, and that means the experience doesn't just accumulate — it gets passed down.
+Since 1981. That's not a number we throw around to sound impressive — it's just how long we've been doing this. The ocean around Cebu has been our training ground, our classroom, and our workplace for 45 years. That kind of time in the water teaches you things no certification course will. Our founders were the first PADI-certified instructors in the Philippines — they helped build the diving community in this country from the ground up. This is a family business, and that means the experience doesn't just accumulate — it gets passed down.
 
 ### 2. Safety is the job, not a sidebar.
 Every dive has a plan. Every plan has a safety protocol. Every crew member knows the protocol isn't a suggestion. We take this seriously because the alternative — not taking it seriously — isn't something we're willing to live with. Everyone goes home. Every time.
