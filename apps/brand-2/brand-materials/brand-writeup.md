@@ -25,7 +25,7 @@
 Engineered for the deep.
 
 **Subheadline:**
-Underwater welding, structural repair, and marine services executed with the precision of 46 years in the water.
+Underwater welding, structural repair, and marine services executed with the precision of 45 years in the water.
 
 **CTA Button Text:**
 - Option A: Deploy Our Team
@@ -35,7 +35,7 @@ Underwater welding, structural repair, and marine services executed with the pre
 
 | Stat | Label |
 |------|-------|
-| 46+ | Years of diving operations |
+| 45+ | Years of diving operations |
 | 100% | Safety-first execution record |
 | 24/7 | Mobilization-ready, any conditions |
 
@@ -56,7 +56,7 @@ Our team has been diving since 1981. That's not a tagline — it's 45 years of a
 We don't trade on nostalgia. We trade on capability. The depth of our experience translates directly into faster assessments, tighter execution, and outcomes that hold up to scrutiny — subsurface and above.
 
 **Authority Callout Line:**
-_46 years of operational depth. Zero tolerance for anything less than precise._
+_45 years of operational depth. Zero tolerance for anything less than precise._
 
 ---
 

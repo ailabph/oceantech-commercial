@@ -47,7 +47,7 @@ Oceantech Commercial Diving exists to set the standard for commercial underwater
 
 1. **Precision Above All** — Every cut, every weld, every measurement is executed to specification. We do not approximate. We do not estimate where exactness is required. Precision is the foundation of everything we deliver.
 
-2. **Mastery Through Discipline** — Our team carries over four decades of accumulated knowledge in the water, built on a family legacy that began when our founders became the first PADI-certified instructors in the Philippines. That experience is not nostalgia — it is operational advantage, sharpened by continuous training and relentless self-improvement.
+2. **Mastery Through Discipline** — Our team carries 45 years of accumulated knowledge in the water, built on a family legacy that began when our founders became the first PADI-certified instructors in the Philippines. That experience is not nostalgia — it is operational advantage, sharpened by continuous training and relentless self-improvement.
 
 3. **Uncompromising Accountability** — We own every outcome. If we committed to a specification, we meet it. If we committed to a timeline, we hold it. No excuses. No qualifications. Our word is our contract before the paperwork is signed.
 
@@ -59,7 +59,7 @@ Oceantech Commercial Diving exists to set the standard for commercial underwater
 
 ## Competitive Positioning Statement
 
-For ship owners, port authorities, and international marine operators who demand the highest standard of underwater work in the Visayas and greater Philippines, **Oceantech Commercial Diving** is the premium commercial diving operation that delivers **engineering-grade precision backed by over four decades of accumulated mastery**, because we have built our operation around a single principle — that commercial diving is a discipline of exactness, and anything less than flawless execution is unacceptable.
+For ship owners, port authorities, and international marine operators who demand the highest standard of underwater work in the Visayas and greater Philippines, **Oceantech Commercial Diving** is the premium commercial diving operation that delivers **engineering-grade precision backed by 45 years of accumulated mastery**, because we have built our operation around a single principle — that commercial diving is a discipline of exactness, and anything less than flawless execution is unacceptable.
 
 ---
 
@@ -84,7 +84,7 @@ For ship owners, port authorities, and international marine operators who demand
 |-----------|-------------|---------|
 | **Tone** | Confident and direct — bordering on declarative | "Precision is not a goal. It is a requirement." |
 | **Language** | Spare, weighted, zero filler — every word earns its place | "We weld. We cut. We inspect. We do not guess." |
-| **Authority** | Commands respect through restraint, not volume | "Four decades in the water. The work speaks." |
+| **Authority** | Commands respect through restraint, not volume | "45 years in the water. The work speaks." |
 | **Technical** | Exacting when specificity demands it | "AWS D3.6M certified wet welding. ADCI-compliant surface-supplied diving. NDT inspection to international code." |
 | **Positioning** | Premium without apology | "The standard for commercial diving in the Visayas." |
 

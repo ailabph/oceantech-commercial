@@ -24,7 +24,7 @@
 
 ### Brand Story
 
-Oceantech Commercial Diving was not built on good intentions. It was forged from four decades of operational depth.
+Oceantech Commercial Diving was not built on good intentions. It was forged from 45 years of operational depth.
 
 Our founders entered the water in 1981 as recreational divers off the coast of Cebu — becoming the first PADI-certified diving instructors in the Philippines. Over the years that followed, they accumulated something that cannot be purchased, fast-tracked, or fabricated: an intimate, hard-earned understanding of what it means to work beneath the surface. They learned to read structures by feel, to operate in zero visibility, to trust their training when the environment offered nothing else.
 
@@ -34,7 +34,7 @@ Based in Maribago, Lapu-Lapu City, Cebu, in the industrial heart of the Central 
 
 ### Mission
 
-To execute commercial diving operations at an engineering-grade standard of precision — delivering underwater welding, cutting, inspection, and marine maintenance services backed by over four decades of accumulated mastery and an absolute refusal to compromise.
+To execute commercial diving operations at an engineering-grade standard of precision — delivering underwater welding, cutting, inspection, and marine maintenance services backed by 45 years of accumulated mastery and an absolute refusal to compromise.
 
 ### Vision
 
@@ -44,7 +44,7 @@ To be the definitive standard for commercial diving in the Philippines — the o
 
 1. **Precision Above All** — Every cut, every weld, every measurement is executed to specification. We do not approximate. We do not estimate where exactness is required. Precision is the foundation of everything we deliver.
 
-2. **Mastery Through Discipline** — Our team carries over four decades of accumulated knowledge in the water, rooted in a family legacy that began when our founders became the first PADI-certified instructors in the Philippines. That experience is not nostalgia — it is operational advantage, sharpened by continuous training and relentless self-improvement.
+2. **Mastery Through Discipline** — Our team carries 45 years of accumulated knowledge in the water, rooted in a family legacy that began when our founders became the first PADI-certified instructors in the Philippines. That experience is not nostalgia — it is operational advantage, sharpened by continuous training and relentless self-improvement.
 
 3. **Uncompromising Accountability** — We own every outcome. If we committed to a specification, we meet it. If we committed to a timeline, we hold it. No excuses. No qualifications. Our word is our contract before the paperwork is signed.
 
@@ -54,7 +54,7 @@ To be the definitive standard for commercial diving in the Philippines — the o
 
 ### Positioning Statement
 
-For ship owners, port authorities, and international marine operators who demand the highest standard of underwater work in the Visayas and greater Philippines, **Oceantech Commercial Diving** is the premium commercial diving operation that delivers **engineering-grade precision backed by over four decades of accumulated mastery**, because we have built our operation around a single principle — that commercial diving is a discipline of exactness, and anything less than flawless execution is unacceptable.
+For ship owners, port authorities, and international marine operators who demand the highest standard of underwater work in the Visayas and greater Philippines, **Oceantech Commercial Diving** is the premium commercial diving operation that delivers **engineering-grade precision backed by 45 years of accumulated mastery**, because we have built our operation around a single principle — that commercial diving is a discipline of exactness, and anything less than flawless execution is unacceptable.
 
 ### Brand Personality
 
@@ -381,13 +381,27 @@ Libre Baskerville is used with extreme restraint. It exists solely to mark the b
 | **Technical** | 14px / 20px | JetBrains Mono | Regular (400) | As-is (preserving case of data) | Specs, measurements, codes, certifications |
 | **Heritage** | Context-dependent | Libre Baskerville | Italic (400) | Italic, sentence case | "Est. 1981" callouts, editorial accents |
 
-### 4.3 CSS Reference
+### 4.3 Responsive Type Scale
+
+| Level | Desktop | Tablet (< 1024px) | Mobile (< 640px) |
+|-------|---------|-------------------|-------------------|
+| **H1** | 56px / 60px | 44px / 48px | 36px / 40px |
+| **H2** | 40px / 44px | 34px / 38px | 28px / 32px |
+| **H3** | 28px / 32px | 24px / 28px | 22px / 26px |
+| **H4** | 20px / 28px | 18px / 26px | 18px / 26px |
+| **Body Large** | 18px / 28px | 18px / 28px | 16px / 26px |
+| **Body** | 16px / 24px | 16px / 24px | 16px / 24px |
+
+### 4.4 CSS Reference
 
 ```css
 /* ═══════════════════════════════════════════
    OCEANTECH — Industrial Precision
    Typography System (Dark Mode Default)
    ═══════════════════════════════════════════ */
+
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500&family=JetBrains+Mono&family=Libre+Baskerville:ital@1&family=Oswald:wght@500;600&display=swap');
 
 /* Heading 1 */
 h1 {
@@ -524,7 +538,7 @@ body, p {
 }
 ```
 
-### 4.4 Typography Rules
+### 4.5 Typography Rules
 
 1. **Dark mode default:** All heading and body colors default to light-on-dark. Light mode is the override, not the base.
 2. **Heading hierarchy is strict:** H1 and H2 use Bebas Neue only. H3 and H4 use Oswald only. No exceptions.
@@ -538,7 +552,7 @@ body, p {
 10. **Heritage font restraint:** Libre Baskerville should appear no more than 1-2 times per page. It is a precision accent, not a workhorse.
 11. **No additional typefaces.** The five-font system covers all use cases. Do not introduce new typefaces under any circumstances.
 
-### 4.5 Web-Safe Fallbacks
+### 4.6 Web-Safe Fallbacks
 
 | Brand Font | Fallback Stack |
 |------------|---------------|
@@ -625,7 +639,7 @@ The Oceantech "Industrial Precision" voice is consistent, deliberate, and weight
 |----------------|-------------|---------|
 | **Bold** | Direct, declarative statements. No hedging. No qualifiers. | "Precision is not a goal. It is a requirement." |
 | **Precise** | Technical accuracy when specificity demands it. Zero filler. | "AWS D3.6M certified wet welding. ADCI-compliant surface-supplied diving." |
-| **Commanding** | Authority earned through restraint, not volume. | "Four decades in the water. The work speaks." |
+| **Commanding** | Authority earned through restraint, not volume. | "45 years in the water. The work speaks." |
 | **Spare** | Every word earns its place. Fewer words carry more weight. | "We weld. We cut. We inspect. We do not guess." |
 | **Elite** | Premium positioning without apology. Confident. | "The standard for commercial diving in the Visayas." |
 
@@ -650,7 +664,7 @@ The tone adjusts by context while the voice remains constant:
 - Write in active voice. Always. "We execute" not "Operations are executed by our team."
 - Use short, declarative sentences. If it needs a semicolon, split it.
 - Lead with the fact. Let it carry weight. Do not explain what is self-evident.
-- Be specific. "46 years" not "decades." "Lapu-Lapu City" not "the Philippines." "AWS D3.6M" not "industry-certified."
+- Be specific. "45 years" not "decades." "Lapu-Lapu City" not "the Philippines." "AWS D3.6M" not "industry-certified."
 - Avoid contractions in all contexts. This brand speaks formally. "We do not" not "We don't."
 - Sentence fragments are permitted when they carry impact. "Zero tolerance." "Full stop." "No exceptions."
 
@@ -665,7 +679,7 @@ The tone adjusts by context while the voice remains constant:
 
 - Headlines are always capitalized (all-caps for H1/H2/H3).
 - Use periods at the end of standalone statements, even in headlines, when the tone demands finality.
-- Numbers are written as numerals, not words. "46 years" not "forty-six years."
+- Numbers are written as numerals, not words. "45 years" not "forty-six years."
 - Use the em dash ( — ) for emphasis breaks. Sparingly.
 
 ### 6.4 Word Choice
@@ -708,7 +722,7 @@ The tone adjusts by context while the voice remains constant:
 > ENGINEERED FOR THE DEEP.
 
 **Hero subheadline:**
-> Underwater welding, structural repair, and marine services executed with the precision of 46 years in the water.
+> Underwater welding, structural repair, and marine services executed with the precision of 45 years in the water.
 
 **About section opening:**
 > Oceantech Commercial Diving exists because the ocean does not tolerate amateurs. Founded in 2016 and operating from Lapu-Lapu City, Cebu, we deliver commercial diving services across the Philippines. Every operation is planned with discipline and executed without compromise.
@@ -720,7 +734,7 @@ The tone adjusts by context while the voice remains constant:
 > Define the scope. We will define the solution.
 
 **Stat callout:**
-> 46+ years of diving operations. 100% safety-first execution record. 24/7 mobilization-ready.
+> 45+ years of diving operations. 100% safety-first execution record. 24/7 mobilization-ready.
 
 ---
 
