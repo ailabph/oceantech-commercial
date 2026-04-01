@@ -1,0 +1,171 @@
+const reasons = [
+  {
+    title: "Safety Is Not Negotiable",
+    description:
+      "Every dive follows a safety management plan. Every crew member is trained to international standards. We've built our reputation on bringing people home.",
+    icon: (
+      <svg
+        width="32"
+        height="32"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="text-orange"
+      >
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+      </svg>
+    ),
+  },
+  {
+    title: "Certified and Qualified",
+    description:
+      "Our divers hold recognized commercial diving certifications. Our founders were the first PADI-certified instructors in the Philippines — a pioneering distinction.",
+    icon: (
+      <svg
+        width="32"
+        height="32"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="text-orange"
+      >
+        <rect x="3" y="4" width="18" height="14" rx="2" />
+        <path d="M7 12h10" />
+        <path d="M7 16h6" />
+        <circle cx="7.5" cy="8" r="1.5" />
+      </svg>
+    ),
+  },
+  {
+    title: "Rapid Mobilization from Cebu",
+    description:
+      "Based in Lapu-Lapu City, we're positioned to respond fast across the Visayas. Local presence means shorter lead times and lower mobilization costs.",
+    icon: (
+      <svg
+        width="32"
+        height="32"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="text-orange"
+      >
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+        <circle cx="12" cy="10" r="3" />
+      </svg>
+    ),
+  },
+  {
+    title: "The Right Tools for the Job",
+    description:
+      "Properly maintained diving systems, cutting and welding equipment, inspection technology. Good equipment makes good work possible.",
+    icon: (
+      <svg
+        width="32"
+        height="32"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="text-orange"
+      >
+        <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+      </svg>
+    ),
+  },
+  {
+    title: "Experienced Crew",
+    description:
+      "Certifications get you in the water. Experience gets the job done. Our team has been diving commercially and recreationally for decades.",
+    icon: (
+      <svg
+        width="32"
+        height="32"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="text-orange"
+      >
+        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+        <circle cx="9" cy="7" r="4" />
+        <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+      </svg>
+    ),
+  },
+  {
+    title: "Transparent Pricing",
+    description:
+      "We quote what the job costs. No hidden fees, no surprise line items. You'll know what you're paying for before we pick up a regulator.",
+    icon: (
+      <svg
+        width="32"
+        height="32"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="text-orange"
+      >
+        <line x1="12" y1="1" x2="12" y2="23" />
+        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+      </svg>
+    ),
+  },
+];
+
+export default function WhyUs() {
+  return (
+    <section id="why" className="bg-teal py-24 px-6 md:px-12 lg:px-24">
+      <div className="mx-auto max-w-7xl">
+        {/* Header */}
+        <div className="mb-16 text-center">
+          <p className="font-heading text-sm uppercase tracking-[0.2em] text-copper mb-4">
+            Why Oceantech
+          </p>
+          <h2 className="font-heading font-bold text-4xl text-white">
+            Six reasons to work with Oceantech.
+          </h2>
+        </div>
+
+        {/* Reason cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {reasons.map((reason) => (
+            <div
+              key={reason.title}
+              className="bg-white/5 backdrop-blur border border-white/10 rounded-sm p-8"
+            >
+              {/* Icon */}
+              <div className="mb-5">{reason.icon}</div>
+
+              {/* Title */}
+              <h3 className="font-heading font-semibold text-lg text-white mb-3">
+                {reason.title}
+              </h3>
+
+              {/* Description */}
+              <p className="font-body text-base text-white/70">
+                {reason.description}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
