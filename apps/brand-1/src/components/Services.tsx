@@ -269,6 +269,33 @@ export default function Services() {
             className="min-h-[280px] md:col-span-2 lg:col-span-3"
           />
         </div>
+
+        {/* ── "From the field" photo strip ── */}
+        <div className="mt-14">
+          <p className="mb-4 font-heading text-sm uppercase tracking-[0.2em] text-copper">
+            From the Field
+          </p>
+          <div className="flex flex-wrap items-center gap-3 lg:gap-4">
+            <img
+              src="/images/actual/actual-photo-3.jpg"
+              alt="Port and pier infrastructure with steel construction"
+              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+            />
+            <img
+              src="/images/actual/actual-photo-5.jpg"
+              alt="Vessel WEST OCEAN 17 with diver entering water at pier"
+              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+            />
+            <img
+              src="/images/actual/actual-photo-8.jpg"
+              alt="Barge with crane and heavy marine equipment"
+              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+            />
+          </div>
+          <p className="mt-3 font-body text-xs text-charcoal/40">
+            Actual operations — Cebu port infrastructure project
+          </p>
+        </div>
       </div>
     </section>
   );

@@ -169,6 +169,35 @@ export default function Services() {
           ))}
         </div>
 
+        {/* From the Field — Photo Strip */}
+        <div className="mt-10 mb-10">
+          <div className="flex gap-3 overflow-x-auto pb-2">
+            <img
+              src="/images/actual/actual-photo-3.jpg"
+              alt="Port and pier infrastructure, steel construction"
+              className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
+            />
+            <img
+              src="/images/actual/actual-photo-7.jpg"
+              alt="Water-level port infrastructure with boats and scaffolding"
+              className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
+            />
+            <img
+              src="/images/actual/actual-photo-8.jpg"
+              alt="Barge with crane and heavy marine equipment"
+              className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
+            />
+            <img
+              src="/images/actual/actual-photo-5.jpg"
+              alt="Vessel WEST OCEAN 17, diver entering the water"
+              className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
+            />
+          </div>
+          <p className="font-body text-xs text-espresso/40 mt-2">
+            Real work, real water, real crew.
+          </p>
+        </div>
+
         {/* Row 3 — Survey & NDT (full width) */}
         <div className="mt-6">
           <div className="group relative overflow-hidden rounded-sm transition hover:-translate-y-1 hover:shadow-md">

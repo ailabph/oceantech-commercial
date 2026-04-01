@@ -3,18 +3,18 @@ import Image from "next/image";
 export default function CTA() {
   return (
     <section id="contact" className="relative py-32 px-6 md:px-12 lg:px-24">
-      {/* Background image */}
+      {/* Background image — real port infrastructure photo */}
       <Image
-        src="/images/cta-background.png"
+        src="/images/actual/actual-photo-7.jpg"
         alt=""
         fill
         className="object-cover"
         priority={false}
       />
 
-      {/* Dark teal overlay */}
+      {/* Warm teal/orange tint overlay to match brand palette */}
       <div
-        className="absolute inset-0 bg-teal/70"
+        className="absolute inset-0 bg-gradient-to-br from-teal/80 via-teal/70 to-copper/30"
         aria-hidden="true"
       />
 

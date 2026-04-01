@@ -50,8 +50,8 @@ export default function About() {
           {/* Image Column */}
           <div className="relative h-[500px] lg:h-full min-h-[400px] order-first lg:order-last">
             <Image
-              src="/images/about.png"
-              alt="Oceantech Offshore Diving Services team at work"
+              src="/images/actual/actual-photo-4.jpg"
+              alt="Two divers in wetsuits at pier site with safety signage"
               fill
               className="object-cover"
             />
@@ -59,6 +59,25 @@ export default function About() {
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-navy/40 via-transparent to-navy/40" />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-navy/30 via-transparent to-navy/30" />
           </div>
+        </div>
+
+        {/* Photo Strip */}
+        <div className="mt-12 flex gap-3">
+          {[
+            { src: "/images/actual/actual-photo-9.jpg", alt: "Three divers on boat with blue helmets during bridge construction" },
+            { src: "/images/actual/actual-photo-8.jpg", alt: "Barge with crane and heavy marine equipment" },
+            { src: "/images/actual/actual-photo-10.jpg", alt: "Dive platform with scuba tanks, diver prepping equipment" },
+          ].map((photo) => (
+            <div key={photo.src} className="relative h-32 w-auto flex-1 overflow-hidden">
+              <Image
+                src={photo.src}
+                alt={photo.alt}
+                fill
+                className="object-cover brightness-90"
+              />
+              <div className="pointer-events-none absolute inset-0 bg-navy/30" />
+            </div>
+          ))}
         </div>
       </div>
     </section>

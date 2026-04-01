@@ -218,6 +218,25 @@ export default function Services() {
             </div>
           </div>
         </div>
+
+        {/* Field Operations Strip */}
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+          {[
+            { src: "/images/actual/actual-photo-3.jpg", alt: "Port and pier infrastructure with steel construction" },
+            { src: "/images/actual/actual-photo-5.jpg", alt: "Vessel WEST OCEAN 17 with diver entering water" },
+            { src: "/images/actual/actual-photo-7.jpg", alt: "Water-level port infrastructure with boats and scaffolding" },
+          ].map((photo) => (
+            <div key={photo.src} className="relative aspect-[4/3] overflow-hidden">
+              <Image
+                src={photo.src}
+                alt={photo.alt}
+                fill
+                className="object-cover grayscale-[30%] brightness-90"
+              />
+              <div className="pointer-events-none absolute inset-0 bg-navy/40" />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

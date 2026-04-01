@@ -5,7 +5,7 @@ export default function CTA() {
     <section id="contact" className="relative overflow-hidden px-6 py-32">
       {/* Background Image */}
       <Image
-        src="/images/cta-background.png"
+        src="/images/actual/actual-photo-7.jpg"
         alt=""
         fill
         className="object-cover"

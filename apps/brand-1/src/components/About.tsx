@@ -74,14 +74,38 @@ export default function About() {
           {/* ── Right column: image ── */}
           <div className="order-first lg:order-last relative aspect-[4/5] w-full overflow-hidden rounded-sm shadow-md lg:aspect-[3/4]">
             <Image
-              src="/images/about.png"
-              alt="Oceantech Offshore Diving Services team preparing for an underwater operation"
+              src="/images/actual/actual-photo-9.jpg"
+              alt="Three Oceantech divers on a boat in blue helmets and wetsuits with bridge construction behind them"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 45vw"
               quality={85}
             />
           </div>
+        </div>
+
+        {/* ── Photo strip: actual operations ── */}
+        <div className="mt-14">
+          <div className="flex flex-wrap items-center gap-3 lg:gap-4">
+            <img
+              src="/images/actual/actual-photo-4.jpg"
+              alt="Two divers in wetsuits at pier construction site with safety signs"
+              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+            />
+            <img
+              src="/images/actual/actual-photo-10.jpg"
+              alt="Dive platform with scuba tanks and equipment, diver prepping"
+              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+            />
+            <img
+              src="/images/actual/actual-photo-7.jpg"
+              alt="Water-level shot of port infrastructure with boats and scaffolding"
+              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+            />
+          </div>
+          <p className="mt-3 font-body text-xs text-charcoal/40">
+            Actual operations — Cebu port infrastructure project
+          </p>
         </div>
       </div>
     </section>

@@ -5,14 +5,14 @@ export default function CTA() {
     <section id="contact" className="relative py-32 px-6 md:px-12 lg:px-20">
       {/* Background Image */}
       <Image
-        src="/images/cta-background.png"
-        alt=""
+        src="/images/actual/actual-photo-7.jpg"
+        alt="Water-level port infrastructure"
         fill
-        className="object-cover"
+        className="object-cover brightness-75"
         priority={false}
       />
 
-      {/* Navy Overlay */}
+      {/* Heavy Navy Overlay */}
       <div className="absolute inset-0 bg-navy/80" />
 
       {/* Content */}

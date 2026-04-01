@@ -80,6 +80,25 @@ export default function WhyUs() {
           <div className="mt-4 h-[2px] w-[48px] bg-rust" />
         </div>
 
+        {/* The People Behind the Work */}
+        <div className="mb-12 flex justify-center gap-4">
+          <img
+            src="/images/actual/actual-photo-1.jpg"
+            alt="Crew member portrait with blue DIVER helmet"
+            className="w-20 h-20 rounded-full object-cover border-2 border-cream/20"
+          />
+          <img
+            src="/images/actual/actual-photo-2.jpg"
+            alt="Crew member smiling near the pier"
+            className="w-20 h-20 rounded-full object-cover border-2 border-cream/20"
+          />
+          <img
+            src="/images/actual/actual-photo-6.jpg"
+            alt="Close-up crew member with DIVER helmet and CREW shirt"
+            className="w-20 h-20 rounded-full object-cover border-2 border-cream/20"
+          />
+        </div>
+
         {/* Cards Grid */}
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {cards.map((card, index) => (

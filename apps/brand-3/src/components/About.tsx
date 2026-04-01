@@ -64,11 +64,45 @@ export default function About() {
           {/* Image Column */}
           <div className="relative order-first lg:order-last">
             <Image
-              src="/images/about.png"
-              alt="Oceantech Offshore Diving Services — heritage diving operations in Maribago, Cebu"
+              src="/images/actual/actual-photo-9.jpg"
+              alt="Three Oceantech divers on a boat wearing blue helmets during bridge construction work"
               width={640}
               height={800}
               className="w-full h-auto rounded-sm shadow-lg"
+            />
+          </div>
+        </div>
+
+        {/* Documentary Photo Gallery */}
+        <div className="mt-16">
+          <p className="font-heading italic text-green/60 text-sm mb-4">
+            The crew. The work. The water.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+            <img
+              src="/images/actual/actual-photo-1.jpg"
+              alt="Crew member portrait wearing blue DIVER helmet"
+              className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
+            />
+            <img
+              src="/images/actual/actual-photo-2.jpg"
+              alt="Crew member selfie, smiling near the pier with DIVER helmet"
+              className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
+            />
+            <img
+              src="/images/actual/actual-photo-4.jpg"
+              alt="Two divers in wetsuits at pier site with safety signs"
+              className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
+            />
+            <img
+              src="/images/actual/actual-photo-10.jpg"
+              alt="Dive platform with scuba tanks, diver prepping equipment"
+              className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
+            />
+            <img
+              src="/images/actual/actual-photo-5.jpg"
+              alt="Vessel WEST OCEAN 17, diver entering the water"
+              className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
             />
           </div>
         </div>

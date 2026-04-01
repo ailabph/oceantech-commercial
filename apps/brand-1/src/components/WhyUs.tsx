@@ -165,6 +165,28 @@ export default function WhyUs() {
             </div>
           ))}
         </div>
+
+        {/* ── Meet the Crew mini-section ── */}
+        <div className="mt-16 flex flex-col items-center">
+          <p className="mb-6 font-heading text-sm uppercase tracking-[0.2em] text-copper">
+            Meet the Crew
+          </p>
+          <div className="flex items-center gap-6">
+            <img
+              src="/images/actual/actual-photo-1.jpg"
+              alt="Crew member portrait wearing blue DIVER helmet on boat"
+              className="h-16 w-16 rounded-full object-cover shadow-md ring-2 ring-copper/40"
+            />
+            <p className="font-body text-sm text-white/60 max-w-xs text-center">
+              Real people, real experience — our divers in the field.
+            </p>
+            <img
+              src="/images/actual/actual-photo-6.jpg"
+              alt="Close-up crew member wearing DIVER helmet and CREW shirt"
+              className="h-16 w-16 rounded-full object-cover shadow-md ring-2 ring-copper/40"
+            />
+          </div>
+        </div>
       </div>
     </section>
   );

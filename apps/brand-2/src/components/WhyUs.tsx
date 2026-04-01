@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function WhyUs() {
   const cards = [
     {
@@ -132,6 +134,26 @@ export default function WhyUs() {
             SIX REASONS WE&apos;RE THE CALL YOU MAKE.
           </h2>
           <div className="w-12 h-[2px] bg-gold" />
+
+          {/* Crew Portraits */}
+          <div className="mt-6 flex items-center gap-3">
+            <div className="relative w-14 h-14 rounded-full overflow-hidden border-2 border-gold/30 flex-shrink-0">
+              <Image
+                src="/images/actual/actual-photo-6.jpg"
+                alt="Crew member with DIVER helmet"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative w-14 h-14 rounded-full overflow-hidden border-2 border-gold/30 flex-shrink-0">
+              <Image
+                src="/images/actual/actual-photo-1.jpg"
+                alt="Crew member portrait with blue DIVER helmet"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
         </div>
 
         {/* Cards Grid */}
