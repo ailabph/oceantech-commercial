@@ -1,4 +1,4 @@
-# Oceantech Commercial Diving — Brand Writeup
+# Oceantech Offshore Diving Services — Brand Writeup
 
 > Website copy direction document
 > Brand 1 — Seasoned, dependable, warm, precise, grounded
@@ -25,7 +25,7 @@
 Commercial diving built on 45 years of ocean experience.
 
 **Subheadline:**
-From Cebu's waters to yours — underwater welding, inspection, hull maintenance, and structural repair delivered by a crew that's been diving since 1981.
+From Cebu's waters to yours — underwater welding, inspection, hull maintenance, and structural repair. Trusted by the Philippines' top shipping lines since 2016.
 
 **CTA Button Text:**
 - Option A: Request a Project Quote
@@ -41,19 +41,32 @@ From Cebu's waters to yours — underwater welding, inspection, hull maintenance
 
 ---
 
+## 2a. Trusted By Section Copy
+
+**Overline:**
+Trusted by the Philippines' top shipping lines
+
+**Body:**
+From the country's largest shipping conglomerate to Cebu's port authority — our client list speaks for itself.
+
+---
+
 ## 3. About Section Copy
 
 **Section Headline:**
 New company. Old hands.
 
 **Paragraph 1:**
-Oceantech Commercial Diving was established in 2016, but our story starts much earlier. Our founders have been in the water since 1981 — first as recreational divers working Cebu's reefs, then as underwater professionals serving the maritime and construction industries across the Philippines. That's over 45 years of reading currents, solving problems at depth, and bringing people home safe. In fact, the family behind Oceantech — the owners of Crispina Aquatics — were the first PADI-certified diving instructors in the Philippines, a distinction that speaks to the depth of our roots in this industry.
+Oceantech Offshore Diving Services was established in 2016, but our story starts much earlier. Our founders have been in the water since 1981 — first as recreational divers working Cebu's reefs, then as underwater professionals serving the maritime and construction industries across the Philippines. That's over 45 years of reading currents, solving problems at depth, and bringing people home safe. In fact, the family behind Oceantech — the owners of Crispina Aquatics — were the first PADI-certified diving instructors in the Philippines, a distinction that speaks to the depth of our roots in this industry.
 
 **Paragraph 2:**
 When we formed Oceantech, the goal was straightforward: take everything we'd learned in those years and build a commercial diving company that does things the right way. No shortcuts on safety. No guesswork on execution. Just experienced divers, proper equipment, and honest work — the kind of outfit we'd want to hire if we were on the other side of the table.
 
 **Paragraph 3:**
 Based in Maribago, Lapu-Lapu City, we're proud to operate from the heart of the Central Visayas. Cebu's maritime heritage runs deep, and so does ours. This is a family business with deep roots in Cebu's diving community — and that personal connection to the water and the people who work on it is something no corporate outfit can replicate. We know these waters, we know this industry, and we show up ready to work.
+
+**Paragraph 4:**
+We're proud to count some of the Philippines' most recognized shipping lines among our clients — including 2GO Group, OceanJet, Trans-Asia, Lite Ferries, Cokaliong, SuperCat, FastCat, Starlite, Weesam Express, and Philippine Span Asia. We also serve the Cebu Port Authority, OPASCOR, and Holcim Philippines. When the companies that move the country trust you with their vessels and infrastructure, that says more than any brochure.
 
 **Heritage Callout Line:**
 _Recreational diving since 1981. Commercial diving since 2016. The experience of a lifetime, working for you._
@@ -157,4 +170,4 @@ Whether you need a quote, want to discuss a scope of work, or just have a questi
 
 ## 8. Footer Tagline
 
-_Oceantech Commercial Diving — deep work, done well._
+_Oceantech Offshore Diving Services — deep work, done well._

@@ -24,7 +24,7 @@ export default function About() {
 
             {/* Body paragraphs */}
             <p className="font-body leading-relaxed text-charcoal">
-              Oceantech Commercial Diving was established in 2016, but our story
+              Oceantech Offshore Diving Services was established in 2016, but our story
               starts much earlier. Our founders have been in the water since
               1981&nbsp;&mdash; first as recreational divers working
               Cebu&rsquo;s reefs, then as underwater professionals serving the
@@ -88,7 +88,7 @@ export default function About() {
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-sm shadow-md lg:aspect-[3/4]">
             <Image
               src="/images/about.png"
-              alt="Oceantech Commercial Diving team preparing for an underwater operation"
+              alt="Oceantech Offshore Diving Services team preparing for an underwater operation"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 45vw"

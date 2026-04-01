@@ -32,9 +32,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Oceantech Commercial Diving | Underwater Welding & Marine Services",
+  title: "Oceantech Offshore Diving Services | Underwater Welding & Marine Services",
   description:
-    "Commercial diving services built on 45 years of ocean experience. Underwater welding, hull cleaning, structural repair, and marine operations from Cebu, Philippines.",
+    "Commercial diving services built on 45 years of ocean experience. Underwater welding, hull cleaning, pier maintenance, structural repair, and marine operations from Cebu, Philippines. Trusted by the Philippines' top shipping lines.",
   keywords: [
     "commercial diving",
     "underwater welding",

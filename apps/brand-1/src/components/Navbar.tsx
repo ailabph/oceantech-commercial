@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import Image from "next/image";
 
 const NAV_LINKS = [
   { label: "About", href: "#about" },
@@ -101,9 +102,26 @@ export default function Navbar() {
               e.preventDefault();
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
-            className="font-heading text-xl font-bold tracking-widest text-white select-none"
+            className="flex flex-row items-center gap-2 select-none"
           >
-            OCEANTECH
+            <Image
+              src="/images/logo-icon.png"
+              alt="Oceantech logo"
+              width={40}
+              height={40}
+              className="hidden md:block"
+            />
+            <Image
+              src="/images/logo-icon.png"
+              alt="Oceantech logo"
+              width={32}
+              height={32}
+              className="block md:hidden"
+            />
+            <div>
+              <span className="font-heading font-bold tracking-widest text-white">OCEANTECH</span>{" "}
+              <span className="font-heading font-medium text-orange">OFFSHORE</span>
+            </div>
           </a>
 
           {/* ---------- Desktop links ---------- */}

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const services = [
   { label: "Underwater Welding", href: "#services" },
   { label: "Hull Cleaning", href: "#services" },
@@ -22,9 +24,18 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Column 1: Logo & Tagline */}
           <div>
-            <span className="font-heading font-bold text-2xl text-white tracking-wide">
-              OCEANTECH
-            </span>
+            <div className="flex flex-row items-center gap-2">
+              <Image
+                src="/images/logo-icon.png"
+                alt="Oceantech logo"
+                width={48}
+                height={48}
+              />
+              <div>
+                <span className="font-heading font-bold text-2xl text-white tracking-wide">OCEANTECH</span>{" "}
+                <span className="font-heading font-medium text-2xl text-orange">OFFSHORE</span>
+              </div>
+            </div>
             <p className="font-body text-sm text-white/50 mt-3">
               Deep work, done well.
             </p>
@@ -104,7 +115,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-copper pt-8">
           <p className="font-body text-sm text-white/50 text-center">
-            &copy; 2026 Oceantech Commercial Diving. All rights reserved.
+            &copy; 2026 Oceantech Offshore Diving Services. All rights reserved.
           </p>
           <p className="font-heritage italic text-white/30 text-sm text-center mt-3">
             Recreational diving since 1981. Commercial diving since 2016.
