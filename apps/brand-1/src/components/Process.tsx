@@ -3,25 +3,25 @@ const steps = [
     number: "01",
     title: "Project Brief",
     description:
-      "You tell us what you need. We listen, ask the right questions, and scope the job.",
+      "You tell us what you need — we listen and scope the job.",
   },
   {
     number: "02",
     title: "Site Assessment",
     description:
-      "Before anyone goes in the water, we evaluate the site. Water conditions, structural context, access points, safety considerations.",
+      "We evaluate site conditions, access points, and safety considerations before anyone goes in the water.",
   },
   {
     number: "03",
     title: "Execution",
     description:
-      "Our crew mobilizes with the right equipment and the right people. Safety protocols are followed on every dive, every time.",
+      "Our crew mobilizes with the right equipment, the right people, and strict safety protocols.",
   },
   {
     number: "04",
     title: "Reporting",
     description:
-      "When the work is done, you get a complete report — photos, video, measurements, and findings.",
+      "You get a complete report — photos, video, measurements, and findings.",
   },
 ];
 
@@ -40,20 +40,20 @@ export default function Process() {
         </div>
 
         {/* Steps */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-0">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-0">
           {steps.map((step, index) => (
             <div key={step.number} className="relative flex flex-col">
               {/* Connecting line — visible on lg between steps */}
               {index < steps.length - 1 && (
                 <div
-                  className="hidden lg:block absolute top-12 left-1/2 w-full h-px bg-copper"
+                  className="hidden md:block absolute top-12 left-1/2 w-full h-px bg-copper"
                   aria-hidden="true"
                 />
               )}
 
-              <div className="relative z-10 flex flex-col items-center text-center lg:px-6">
+              <div className="relative z-10 flex flex-col items-center text-center md:px-6">
                 {/* Watermark number */}
-                <span className="font-heading text-6xl font-bold text-copper/20 leading-none select-none">
+                <span className="font-heading text-4xl md:text-6xl font-bold text-copper/20 leading-none select-none">
                   {step.number}
                 </span>
 

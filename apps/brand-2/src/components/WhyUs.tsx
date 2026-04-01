@@ -3,7 +3,7 @@ export default function WhyUs() {
     {
       title: "Safety as Operating Standard",
       description:
-        "Not a policy poster. A non-negotiable operational framework. Every dive is governed by a safety management plan.",
+        "Every dive is governed by a non-negotiable safety management plan.",
       icon: (
         <svg
           width="32"
@@ -22,7 +22,7 @@ export default function WhyUs() {
     {
       title: "Certified to Industry Standards",
       description:
-        "Our founders were the first PADI-certified instructors in the Philippines. We don't claim competency — we document it.",
+        "Pioneer PADI instructors in the Philippines — we document competency, not claim it.",
       icon: (
         <svg
           width="32"
@@ -41,7 +41,7 @@ export default function WhyUs() {
     {
       title: "Rapid Deployment Capability",
       description:
-        "Based in Lapu-Lapu City, Cebu — strategically positioned for fast mobilization across the Visayas and the broader Philippine archipelago.",
+        "Based in Cebu — fast mobilization across the Visayas and the broader Philippine archipelago.",
       icon: (
         <svg
           width="32"
@@ -64,7 +64,7 @@ export default function WhyUs() {
     {
       title: "Purpose-Built Equipment",
       description:
-        "Surface-supplied diving systems, coded welding rigs, calibrated NDT instruments. Maintained, inspected, and ready.",
+        "Surface-supplied diving systems, coded welding rigs, and calibrated NDT instruments — maintained and ready.",
       icon: (
         <svg
           width="32"
@@ -83,7 +83,7 @@ export default function WhyUs() {
     {
       title: "Operators, Not Just Divers",
       description:
-        "Decades of operational experience is what separates performance from presence. They don't learn on your job — they deliver on it.",
+        "Decades of operational experience — they deliver on your job, not learn on it.",
       icon: (
         <svg
           width="32"
@@ -102,7 +102,7 @@ export default function WhyUs() {
     {
       title: "Transparent, Defensible Pricing",
       description:
-        "Scope-based quotations. No hidden mobilization charges. No ambiguous line items.",
+        "Scope-based quotations with no hidden charges or ambiguous line items.",
       icon: (
         <svg
           width="32"
@@ -139,7 +139,7 @@ export default function WhyUs() {
           {cards.map((card, index) => (
             <div
               key={index}
-              className="bg-navy border border-divider hover:border-gold transition p-8"
+              className="bg-navy border border-divider hover:border-gold transition p-5 md:p-8"
             >
               <div className="text-gold mb-6">{card.icon}</div>
               <h3 className="font-heading font-semibold text-lg uppercase text-white mb-3">

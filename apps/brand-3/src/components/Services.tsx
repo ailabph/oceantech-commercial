@@ -2,19 +2,19 @@ const imageServices = [
   {
     title: "Underwater Welding",
     description:
-      "Steel doesn't care that it's submerged — it still needs to hold. Our divers run wet welds and habitat welds on hulls, pipelines, and structural steel.",
+      "Steel doesn't care that it's submerged — it still needs to hold.",
     image: "/images/service-welding.png",
   },
   {
     title: "Hull Cleaning",
     description:
-      "Marine growth is a tax on every vessel that sits in the water. We scrape it, blast it, and get your hull back to where it should be.",
+      "Marine growth is a tax on every vessel. We get your hull back to where it should be.",
     image: "/images/service-hull.png",
   },
   {
     title: "Survey & NDT Inspection",
     description:
-      "Sometimes you don't need a repair — you need to know what's going on down there. We run the checks and give you the real picture.",
+      "Sometimes you need to know what's going on down there before deciding anything.",
     image: "/images/service-inspection.png",
   },
 ];
@@ -23,7 +23,7 @@ const textServices = [
   {
     title: "Structural Repair",
     description:
-      "Piers crack. Pilings corrode. Things underwater break in ways nobody planned for. We go down, assess the damage, and fix it.",
+      "Piers crack. Pilings corrode. We go down and fix it.",
     icon: (
       <svg
         className="w-8 h-8 text-rust"
@@ -43,7 +43,7 @@ const textServices = [
   {
     title: "Pier & Wharf Cleanup",
     description:
-      "Port infrastructure collects debris, growth, and damage constantly. We clear it out, clean it up, and tell you what we found.",
+      "Port infrastructure collects debris constantly. We clear it and tell you what we found.",
     icon: (
       <svg
         className="w-8 h-8 text-rust"
@@ -63,7 +63,7 @@ const textServices = [
   {
     title: "Ship & Vessel Maintenance",
     description:
-      "Propeller polishing, anode swaps, valve work — the in-water maintenance that keeps a vessel running between dry dock visits.",
+      "Propeller polishing, anode swaps, valve work — keeping vessels running between dry dock.",
     icon: (
       <svg
         className="w-8 h-8 text-rust"
@@ -103,10 +103,10 @@ export default function Services() {
         </div>
 
         {/* Row 1 — Welding (2 col) + Hull (1 col) */}
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           {/* Welding — spans 2 columns */}
           <div className="group relative col-span-1 md:col-span-2 overflow-hidden rounded-sm transition hover:-translate-y-1 hover:shadow-md">
-            <div className="relative aspect-[16/9] w-full">
+            <div className="relative aspect-[4/3] md:aspect-[16/9] w-full">
               <img
                 src={imageServices[0].image}
                 alt={imageServices[0].title}
@@ -129,7 +129,7 @@ export default function Services() {
 
           {/* Hull Cleaning — 1 column */}
           <div className="group relative col-span-1 overflow-hidden rounded-sm transition hover:-translate-y-1 hover:shadow-md">
-            <div className="relative aspect-[9/16] md:aspect-auto md:h-full w-full">
+            <div className="relative aspect-[4/3] md:aspect-auto md:h-full w-full">
               <img
                 src={imageServices[1].image}
                 alt={imageServices[1].title}
@@ -152,7 +152,7 @@ export default function Services() {
         </div>
 
         {/* Row 2 — 3 text cards */}
-        <div className="mt-6 grid gap-6 md:grid-cols-3">
+        <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-3">
           {textServices.map((service) => (
             <div
               key={service.title}

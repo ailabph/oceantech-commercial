@@ -47,7 +47,7 @@ Oceantech Commercial Diving exists to bring the care, precision, and deep respec
 
 1. **Safety Without Compromise** — Every dive plan, every procedure, every decision starts with safety. No exceptions, no shortcuts. This isn't a policy — it's who we are.
 
-2. **Earned Expertise** — Our knowledge wasn't learned in a classroom alone. It was built across 45 years in the water — from recreational reefs to commercial hulls. We know the ocean because we've lived in it. Our founders were the first PADI-certified instructors in the Philippines, and that pioneering spirit still drives us today.
+2. **Earned Expertise** — Our knowledge wasn't learned in a classroom alone. It was built across 45 years in the water — from recreational reefs to commercial hulls. We know the ocean because we've lived in it. Our founders were pioneer PADI instructors in the Philippines, and that pioneering spirit still drives us today.
 
 3. **Honest Work** — Transparent pricing. Honest assessments. We tell you what needs to be done, not what makes us more money. Our reputation is worth more than any single contract.
 
@@ -61,7 +61,7 @@ Oceantech Commercial Diving exists to bring the care, precision, and deep respec
 
 For ship owners, port authorities, and marine contractors in the Visayas and greater Philippines, **Oceantech Commercial Diving** is the commercial diving company that combines **45 years of diving heritage with modern industrial capability**, because our team has been in the water since 1981 — longer than any local competitor — giving us an unmatched depth of experience that no newly formed crew can replicate.
 
-**Key Heritage Differentiator:** Oceantech's founders — the family behind Crispina Aquatics — were the first PADI-certified diving instructors in the Philippines. This pioneering credential is a powerful trust signal: our roots in professional diving predate the entire commercial diving industry in the region. As a family business with deep roots in Cebu's diving community, we carry a legacy of excellence that is personal, not corporate.
+**Key Heritage Differentiator:** Oceantech's founders — the operators of a PADI dive shop at Costabella Resort — were pioneer PADI instructors in the Philippines. This pioneering credential is a powerful trust signal: our roots in professional diving predate the entire commercial diving industry in the region. As a family business with deep roots in Cebu's diving community, we carry a legacy of excellence that is personal, not corporate.
 
 ---
 
@@ -88,7 +88,7 @@ For ship owners, port authorities, and marine contractors in the Visayas and gre
 | **Language** | Direct, clear, jargon-free when possible | "We clean hulls. We weld underwater. We inspect what you can't see." |
 | **Warmth** | Human, personal, relatable | "We didn't start as a business. We started as divers." |
 | **Technical** | Precise when it matters | "AWS D3.6M certified wet welding, ADCI-compliant surface-supplied operations." |
-| **Heritage** | Pioneering credibility | "The first PADI instructors in the Philippines — a family tradition of diving excellence rooted in Cebu." |
+| **Heritage** | Pioneering credibility | "Pioneer PADI instructors in the Philippines — a family tradition of diving excellence rooted in Cebu." |
 | **Local** | Proud of roots | "From Maribago to every port in the Visayas." |
 
 ---
@@ -123,4 +123,4 @@ The visual identity should evoke: **trust, warmth, depth, and craftsmanship**. I
 - **Embrace:** Geometric abstraction, warm accent colors, bold typography, heritage cues (est. dates, timeline elements)
 - **Logo should:** Work in single color, scale from favicon to billboard, feel both modern and established
 - **Photography should:** Be 80%+ authentic operational shots, not stock. Show real divers, real equipment, real Cebu waters.
-- **Heritage anchors:** Reference Crispina Aquatics at Costabella Tropical Beach Resort as the origin. The Costabella connection (est. 1981) and first-PADI-instructors-in-the-Philippines claim give the brand documentary-grade credibility. Timeline visuals, family photos, and Maribago location shots reinforce the roots.
+- **Heritage anchors:** Reference the PADI dive shop at Costabella Tropical Beach Resort as the origin. The Costabella connection (est. 1981) and pioneer-PADI-instructors-in-the-Philippines claim give the brand documentary-grade credibility. Timeline visuals, family photos, and Maribago location shots reinforce the roots.

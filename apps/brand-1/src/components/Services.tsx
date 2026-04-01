@@ -89,42 +89,42 @@ const services: Service[] = [
     title: "Underwater Welding",
     subtitle: "Reliable welds in demanding conditions.",
     description:
-      "Our certified divers perform wet and habitat welding on hulls, pipelines, and submerged structures. We work to code, in current, and on your schedule \u2014 because downtime costs money.",
+      "Certified wet and habitat welding on hulls, pipelines, and submerged structures \u2014 on code and on schedule.",
     image: "/images/service-welding.png",
   },
   {
     title: "Hull Cleaning",
     subtitle: "Keeping your vessel efficient and seaworthy.",
     description:
-      "Marine growth slows you down and drives up fuel costs. We provide thorough hull cleaning services that restore hydrodynamic performance and extend the life of your coatings, with minimal disruption to your operations.",
+      "Thorough marine growth removal that restores hydrodynamic performance and extends coating life.",
     image: "/images/service-hull.png",
   },
   {
     title: "Pier & Wharf Cleanup",
     subtitle: "Maintaining the structures your operations depend on.",
     description:
-      "Piers, wharves, and port infrastructure take a beating from the sea. We handle debris removal, marine growth clearing, and underwater structural assessments to keep your waterfront facilities in working order.",
+      "Debris removal, marine growth clearing, and underwater structural assessments for waterfront facilities.",
     icon: <WrenchIcon />,
   },
   {
     title: "Ship & Vessel Maintenance",
     subtitle: "Keeping fleets operational without dry dock delays.",
     description:
-      "Not every repair needs a dry dock. Our divers perform propeller polishing, anode replacement, valve servicing, and general underwater maintenance \u2014 so your vessels stay in service longer between scheduled haul-outs.",
+      "Propeller polishing, anode replacement, valve servicing, and general underwater maintenance \u2014 without dry dock delays.",
     icon: <ShipIcon />,
   },
   {
     title: "Underwater Cutting",
     subtitle: "Precision cutting where access is limited to divers.",
     description:
-      "We perform oxy-arc and thermic cutting on submerged steel, concrete, and mixed structures. Whether it\u2019s salvage work, decommissioning, or clearing obstructions, our crew handles it safely and efficiently.",
+      "Oxy-arc and thermic cutting on submerged steel, concrete, and mixed structures for salvage, decommissioning, or clearing.",
     icon: <ScissorsIcon />,
   },
   {
     title: "Survey & NDT Inspection",
     subtitle: "Clear reporting on what\u2019s happening below the waterline.",
     description:
-      "We conduct underwater surveys and non-destructive testing \u2014 including ultrasonic thickness measurements, visual inspections, and CCTV documentation \u2014 to give you an accurate picture of structural condition.",
+      "Ultrasonic thickness measurements, visual inspections, and CCTV documentation for an accurate structural picture.",
     image: "/images/service-inspection.png",
   },
 ];

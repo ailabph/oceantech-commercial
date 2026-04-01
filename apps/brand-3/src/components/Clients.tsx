@@ -22,7 +22,7 @@ export default function Clients() {
           The companies that move the Philippines trust us with their vessels
         </p>
 
-        <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-5">
+        <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-4 md:gap-x-10">
           {clients.map((client) => (
             <div
               key={client.name}
@@ -31,7 +31,7 @@ export default function Clients() {
               <img
                 src={client.logo}
                 alt={client.name}
-                className="h-9 w-auto object-contain"
+                className="h-7 md:h-9 w-auto object-contain"
               />
             </div>
           ))}

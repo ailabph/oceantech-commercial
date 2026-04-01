@@ -26,7 +26,7 @@
 
 Oceantech Commercial Diving was not built on good intentions. It was forged from 45 years of operational depth.
 
-Our founders entered the water in 1981 as recreational divers off the coast of Cebu — becoming the first PADI-certified diving instructors in the Philippines. Over the years that followed, they accumulated something that cannot be purchased, fast-tracked, or fabricated: an intimate, hard-earned understanding of what it means to work beneath the surface. They learned to read structures by feel, to operate in zero visibility, to trust their training when the environment offered nothing else.
+Our founders entered the water in 1981 as recreational divers off the coast of Cebu — becoming pioneer PADI instructors in the Philippines. Over the years that followed, they accumulated something that cannot be purchased, fast-tracked, or fabricated: an intimate, hard-earned understanding of what it means to work beneath the surface. They learned to read structures by feel, to operate in zero visibility, to trust their training when the environment offered nothing else.
 
 When Oceantech was established as a commercial diving operation in 2016, the directive was singular: build a firm that treats every underwater operation as an act of engineering. No approximation. No improvisation. Every weld, every cut, every inspection executed to specification.
 
@@ -44,7 +44,7 @@ To be the definitive standard for commercial diving in the Philippines — the o
 
 1. **Precision Above All** — Every cut, every weld, every measurement is executed to specification. We do not approximate. We do not estimate where exactness is required. Precision is the foundation of everything we deliver.
 
-2. **Mastery Through Discipline** — Our team carries 45 years of accumulated knowledge in the water, rooted in a family legacy that began when our founders became the first PADI-certified instructors in the Philippines. That experience is not nostalgia — it is operational advantage, sharpened by continuous training and relentless self-improvement.
+2. **Mastery Through Discipline** — Our team carries 45 years of accumulated knowledge in the water, rooted in a family legacy that began when our founders became pioneer PADI instructors in the Philippines. That experience is not nostalgia — it is operational advantage, sharpened by continuous training and relentless self-improvement.
 
 3. **Uncompromising Accountability** — We own every outcome. If we committed to a specification, we meet it. If we committed to a timeline, we hold it. No excuses. No qualifications. Our word is our contract before the paperwork is signed.
 
@@ -82,7 +82,7 @@ For ship owners, port authorities, and international marine operators who demand
 5. We don't surface until it's done.
 
 **Heritage callout line:**
-_Recreational diving since 1981. Commercial diving since 2016. The first PADI-certified instructors in the Philippines. A family-built operation._
+_Recreational diving since 1981. Commercial diving since 2016. Pioneer PADI instructors in the Philippines. A family-built operation._
 
 ---
 

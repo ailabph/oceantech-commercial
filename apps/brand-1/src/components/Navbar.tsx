@@ -119,8 +119,8 @@ export default function Navbar() {
               className="block md:hidden"
             />
             <div>
-              <span className="font-heading font-bold tracking-widest text-white">OCEANTECH</span>{" "}
-              <span className="font-heading font-medium text-orange">OFFSHORE</span>
+              <span className="font-heading text-sm md:text-xl font-bold tracking-widest text-white">OCEANTECH</span>{" "}
+              <span className="font-heading text-sm md:text-xl font-medium text-orange">OFFSHORE</span>
             </div>
           </a>
 

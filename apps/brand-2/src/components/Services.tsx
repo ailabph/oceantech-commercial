@@ -5,7 +5,7 @@ const imageServices = [
     title: "Underwater Welding",
     subtitle: "Structural integrity delivered at depth.",
     description:
-      "Our certified welders perform wet and habitat welding on hulls, pipelines, offshore structures, and submerged steel — coded to international standards.",
+      "Wet and habitat welding on hulls, pipelines, and offshore structures — coded to international standards.",
     image: "/images/service-welding.png",
     colSpan: "md:col-span-2",
   },
@@ -13,7 +13,7 @@ const imageServices = [
     title: "Hull Cleaning",
     subtitle: "Performance recovery, executed in-water.",
     description:
-      "Marine fouling degrades speed, increases fuel consumption, and accelerates coating failure. We remove it — methodically, completely.",
+      "Methodical removal of marine fouling to recover vessel speed and reduce fuel consumption.",
     image: "/images/service-hull.png",
     colSpan: "md:col-span-1",
   },
@@ -24,7 +24,7 @@ const textServices = [
     title: "Pier & Wharf Cleanup",
     subtitle: "Maintaining the infrastructure the industry depends on.",
     description:
-      "Port structures deteriorate silently. We perform debris removal, biofouling clearance, and underwater structural assessments.",
+      "Debris removal, biofouling clearance, and underwater structural assessments on port infrastructure.",
     icon: (
       <svg
         width="32"
@@ -47,7 +47,7 @@ const textServices = [
     title: "Ship & Vessel Maintenance",
     subtitle: "Operational continuity without dry dock dependency.",
     description:
-      "Propeller polishing, anode replacement, sea chest clearing, valve servicing, blanking operations.",
+      "Propeller polishing, anode replacement, sea chest clearing, valve servicing, and blanking — in-water.",
     icon: (
       <svg
         width="32"
@@ -95,7 +95,7 @@ const fullWidthService = {
   title: "Survey & NDT Inspection",
   subtitle: "Data-driven assessment of subsurface assets.",
   description:
-    "Non-destructive testing — ultrasonic thickness measurement, cathodic potential surveys, visual and CCTV inspections.",
+    "Ultrasonic thickness measurement, cathodic potential surveys, visual and CCTV inspections.",
   image: "/images/service-inspection.png",
 };
 
@@ -126,7 +126,7 @@ export default function Services() {
               key={service.title}
               className={`group relative overflow-hidden border border-transparent transition-all duration-300 hover:border-gold hover:-translate-y-1 ${service.colSpan}`}
             >
-              <div className="relative aspect-[16/10] w-full">
+              <div className="relative aspect-[16/10] md:aspect-[16/10] w-full">
                 <Image
                   src={service.image}
                   alt={service.title}

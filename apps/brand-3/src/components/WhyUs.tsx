@@ -9,7 +9,7 @@ export default function WhyUs() {
       ),
       title: "We've been in this water a long time.",
       description:
-        "Since 1981. Our founders were the first PADI-certified instructors in the Philippines. This is a family business — the experience gets passed down.",
+        "Since 1981 — our founders were pioneer PADI instructors in the Philippines, and the experience gets passed down.",
     },
     {
       icon: (
@@ -19,7 +19,7 @@ export default function WhyUs() {
       ),
       title: "Safety is the job, not a sidebar.",
       description:
-        "Every dive has a plan. Every plan has a safety protocol. Everyone goes home. Every time.",
+        "Every dive has a plan, every plan has a safety protocol, and everyone goes home.",
     },
     {
       icon: (
@@ -29,7 +29,7 @@ export default function WhyUs() {
       ),
       title: "We own our equipment.",
       description:
-        "Our diving systems, welding rigs, cutting equipment — ours. Maintained, checked, and ready. When you call, we mobilize.",
+        "Our diving systems, welding rigs, and cutting gear are ours — maintained, checked, and ready to mobilize.",
     },
     {
       icon: (
@@ -40,7 +40,7 @@ export default function WhyUs() {
       ),
       title: "We say what we find.",
       description:
-        "Our reports don't soften bad news. You're paying us for the truth underwater, not the version that's easiest to hear.",
+        "You're paying us for the truth underwater, not the version that's easiest to hear.",
     },
     {
       icon: (
@@ -51,7 +51,7 @@ export default function WhyUs() {
       ),
       title: "Cebu is home. We get there fast.",
       description:
-        "Operating out of Maribago puts us right on the water. We mobilize fast because we're already close.",
+        "Maribago puts us right on the water — we mobilize fast because we're already close.",
     },
     {
       icon: (
@@ -62,7 +62,7 @@ export default function WhyUs() {
       ),
       title: "The price is the price.",
       description:
-        "We quote the job based on what it actually takes. No hidden fees. You'll know what you're paying for before we load the boat.",
+        "We quote based on what it actually takes — no hidden fees, no surprises after we load the boat.",
     },
   ];
 
@@ -81,7 +81,7 @@ export default function WhyUs() {
         </div>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {cards.map((card, index) => (
             <div
               key={index}
@@ -91,7 +91,7 @@ export default function WhyUs() {
               <h3 className="mb-2 font-heading text-lg font-bold text-cream">
                 {card.title}
               </h3>
-              <p className="font-body text-sm text-cream/60">
+              <p className="font-body text-sm text-cream/70">
                 {card.description}
               </p>
             </div>

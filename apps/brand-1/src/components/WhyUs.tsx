@@ -2,7 +2,7 @@ const reasons = [
   {
     title: "Safety Is Not Negotiable",
     description:
-      "Every dive follows a safety management plan. Every crew member is trained to international standards. We've built our reputation on bringing people home.",
+      "Every dive follows a safety management plan — no exceptions, no shortcuts.",
     icon: (
       <svg
         width="32"
@@ -22,7 +22,7 @@ const reasons = [
   {
     title: "Certified and Qualified",
     description:
-      "Our divers hold recognized commercial diving certifications. Our founders were the first PADI-certified instructors in the Philippines — a pioneering distinction.",
+      "Our divers hold recognized certifications and our founders were pioneer PADI instructors in the Philippines.",
     icon: (
       <svg
         width="32"
@@ -45,7 +45,7 @@ const reasons = [
   {
     title: "Rapid Mobilization from Cebu",
     description:
-      "Based in Lapu-Lapu City, we're positioned to respond fast across the Visayas. Local presence means shorter lead times and lower mobilization costs.",
+      "Based in Lapu-Lapu City — shorter lead times and lower mobilization costs across the Visayas.",
     icon: (
       <svg
         width="32"
@@ -66,7 +66,7 @@ const reasons = [
   {
     title: "The Right Tools for the Job",
     description:
-      "Properly maintained diving systems, cutting and welding equipment, inspection technology. Good equipment makes good work possible.",
+      "Properly maintained diving systems, welding rigs, and inspection technology — because good gear makes good work.",
     icon: (
       <svg
         width="32"
@@ -86,7 +86,7 @@ const reasons = [
   {
     title: "Experienced Crew",
     description:
-      "Certifications get you in the water. Experience gets the job done. Our team has been diving commercially and recreationally for decades.",
+      "Our team has been diving commercially and recreationally for decades — experience gets the job done.",
     icon: (
       <svg
         width="32"
@@ -109,7 +109,7 @@ const reasons = [
   {
     title: "Transparent Pricing",
     description:
-      "We quote what the job costs. No hidden fees, no surprise line items. You'll know what you're paying for before we pick up a regulator.",
+      "We quote what the job costs — no hidden fees, no surprise line items.",
     icon: (
       <svg
         width="32"
@@ -148,7 +148,7 @@ export default function WhyUs() {
           {reasons.map((reason) => (
             <div
               key={reason.title}
-              className="bg-white/5 backdrop-blur border border-white/10 rounded-sm p-8"
+              className="bg-white/5 backdrop-blur border border-white/10 rounded-sm p-5 md:p-6"
             >
               {/* Icon */}
               <div className="mb-5">{reason.icon}</div>

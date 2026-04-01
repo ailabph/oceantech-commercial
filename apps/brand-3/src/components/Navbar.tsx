@@ -99,10 +99,10 @@ export default function Navbar() {
                 className="w-8 h-8 md:w-10 md:h-10"
               />
               <div className="flex items-baseline gap-1.5">
-                <span className="font-display text-[#FAF3E8] text-lg md:text-xl tracking-wide">
+                <span className="font-display text-[#FAF3E8] text-sm md:text-base lg:text-xl tracking-wide">
                   OCEANTECH
                 </span>
-                <span className="font-heading font-semibold text-[#C1440E] text-sm md:text-base">
+                <span className="font-heading font-semibold text-[#C1440E] text-xs md:text-sm lg:text-base">
                   OFFSHORE
                 </span>
               </div>
@@ -139,7 +139,8 @@ export default function Navbar() {
                 }}
                 className="bg-[#C1440E] text-[#FAF3E8] px-6 py-2 rounded-sm font-body font-medium text-sm transition-colors duration-300 hover:bg-[#A33A0C]"
               >
-                Tell Us What You Need
+                <span className="hidden xl:inline">Tell Us What You Need</span>
+                <span className="xl:hidden">Contact</span>
               </a>
             </div>
 

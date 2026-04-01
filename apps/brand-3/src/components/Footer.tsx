@@ -41,7 +41,7 @@ export default function Footer() {
                 </span>
               </div>
             </div>
-            <p className="mt-4 font-body text-xs text-cream/40">
+            <p className="mt-4 font-body text-xs text-cream/50 md:text-cream/40">
               Been in the water since before most companies were on paper.
             </p>
           </div>
@@ -56,7 +56,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <a
                     href={link.href}
-                    className="font-body text-sm text-cream/50 transition-colors hover:text-rust"
+                    className="font-body text-sm text-cream/60 md:text-cream/50 transition-colors hover:text-rust"
                   >
                     {link.label}
                   </a>
@@ -75,7 +75,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <a
                     href={link.href}
-                    className="font-body text-sm text-cream/50 transition-colors hover:text-rust"
+                    className="font-body text-sm text-cream/60 md:text-cream/50 transition-colors hover:text-rust"
                   >
                     {link.label}
                   </a>
@@ -89,7 +89,7 @@ export default function Footer() {
             <h4 className="mb-4 font-body text-xs font-medium uppercase tracking-wide text-cream/70">
               Contact
             </h4>
-            <ul className="space-y-2 font-body text-sm text-cream/50">
+            <ul className="space-y-2 font-body text-sm text-cream/60 md:text-cream/50">
               <li>+63 (32) 495-1981</li>
               <li>crew@oceantech.ph</li>
               <li>

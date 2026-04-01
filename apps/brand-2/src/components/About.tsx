@@ -19,37 +19,23 @@ export default function About() {
 
             <div className="space-y-5">
               <p className="font-body text-base text-white/70 leading-relaxed">
-                Oceantech Offshore Diving Services exists because the ocean
-                doesn&apos;t tolerate amateurs. Founded in 2016 and operating
-                from Lapu-Lapu City, Cebu, we deliver commercial diving services
-                across the Philippines — underwater welding, cutting, inspection,
-                structural repair, and marine maintenance. Every operation is
-                planned with discipline and executed without compromise.
+                Founded in 2016, Lapu-Lapu City, Cebu. We deliver commercial
+                diving services across the Philippines — underwater welding,
+                cutting, inspection, structural repair, and marine maintenance.
               </p>
 
               <p className="font-body text-base text-white/70 leading-relaxed">
-                Our team has been diving since 1981. That&apos;s not a tagline —
-                it&apos;s 45 years of accumulated technical knowledge,
-                operational problem-solving, and performance in hostile
-                environments. Our founders were the first PADI-certified diving
-                instructors in the Philippines — credentials earned when the
-                industry in this country barely existed. This is a family-built
-                operation, and the discipline runs generational.
-              </p>
-
-              <p className="font-body text-base text-white/70 leading-relaxed">
-                We don&apos;t trade on nostalgia. We trade on capability. The
-                depth of our experience translates directly into faster
-                assessments, tighter execution, and outcomes that hold up to
-                scrutiny — subsurface and above.
+                Our team has been diving since 1981 — 45 years of accumulated
+                technical knowledge and performance in hostile environments. Our
+                founders were pioneer PADI instructors in the Philippines. This
+                is a family-built operation, and the discipline runs
+                generational.
               </p>
 
               <p className="font-body text-base text-white/50 leading-relaxed">
-                Our client roster includes 10 of the Philippines&apos; major
-                shipping lines — 2GO Group, OceanJet, Trans-Asia, SuperCat, Lite
-                Ferries, Cokaliong, FastCat, Starlite, Weesam Express, and
-                Philippine Span Asia — along with the Cebu Port Authority,
-                OPASCOR, and Holcim Philippines.
+                2GO Group, OceanJet, Trans-Asia, SuperCat, Lite Ferries,
+                Cokaliong, FastCat, Starlite, Weesam Express, Philippine Span
+                Asia, Cebu Port Authority, OPASCOR, and Holcim Philippines.
               </p>
             </div>
 
@@ -62,7 +48,7 @@ export default function About() {
           </div>
 
           {/* Image Column */}
-          <div className="relative h-[500px] lg:h-full min-h-[400px]">
+          <div className="relative h-[500px] lg:h-full min-h-[400px] order-first lg:order-last">
             <Image
               src="/images/about.png"
               alt="Oceantech Offshore Diving Services team at work"

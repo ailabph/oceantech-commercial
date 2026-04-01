@@ -60,7 +60,7 @@ Forged in the water. Proven under pressure.
 Oceantech Offshore Diving Services exists because the ocean doesn't tolerate amateurs. Founded in 2016 and operating from Lapu-Lapu City, Cebu, we deliver commercial diving services across the Philippines — underwater welding, cutting, inspection, structural repair, and marine maintenance. Every operation is planned with discipline and executed without compromise.
 
 **Paragraph 2:**
-Our team has been diving since 1981. That's not a tagline — it's 45 years of accumulated technical knowledge, operational problem-solving, and performance in hostile environments. Our founders were the first PADI-certified diving instructors in the Philippines — credentials earned when the industry in this country barely existed. Recreational diving built the foundation. Commercial diving sharpened it into something the maritime and construction industries rely on when the margin for error is zero. This is a family-built operation, and the discipline runs generational.
+Our team has been diving since 1981. That's not a tagline — it's 45 years of accumulated technical knowledge, operational problem-solving, and performance in hostile environments. Our founders were pioneer PADI instructors in the Philippines — credentials earned when the industry in this country barely existed. Recreational diving built the foundation. Commercial diving sharpened it into something the maritime and construction industries rely on when the margin for error is zero. This is a family-built operation, and the discipline runs generational.
 
 **Paragraph 3:**
 We don't trade on nostalgia. We trade on capability. The depth of our experience translates directly into faster assessments, tighter execution, and outcomes that hold up to scrutiny — subsurface and above.
@@ -137,7 +137,7 @@ Six reasons we're the call you make.
 Not a policy poster. A non-negotiable operational framework. Every dive is governed by a safety management plan, every crew member is trained to international standards, and every operation is briefed, monitored, and debriefed. Full stop.
 
 ### 2. Certified to Industry Standards
-Our divers hold recognized commercial diving certifications. Our welders are coded. Our inspection personnel are qualified in NDT methodologies. Our founders were the first PADI-certified instructors in the Philippines — the authority was established before the industry even had a name here. We don't claim competency — we document it.
+Our divers hold recognized commercial diving certifications. Our welders are coded. Our inspection personnel are qualified in NDT methodologies. Our founders were pioneer PADI instructors in the Philippines — the authority was established before the industry even had a name here. We don't claim competency — we document it.
 
 ### 3. Rapid Deployment Capability
 Based in Lapu-Lapu City, Cebu — strategically positioned for fast mobilization across the Visayas and the broader Philippine archipelago. Shorter lead times. Lower mobilization costs. A team that can be on-site when you need them, not when it's convenient.

@@ -28,7 +28,7 @@ Oceantech Commercial Diving exists to set the standard for commercial underwater
   - Inspection reports are often incomplete, vague, or unusable for engineering decisions
   - Difficulty finding contractors who operate at an engineering-grade level of precision
 - **Desires:** A contractor whose work product meets international engineering standards without revision — detailed, defensible, and technically sound
-- **How Oceantech Serves Her:** Our operations are built on engineering discipline, not improvisation. Every inspection follows rigorous protocols. Every report is structured for engineering review. Our certifications are not credentials on a wall — they are the minimum standard we hold ourselves to. Our founders were the first PADI-certified diving instructors in the Philippines. That is not a marketing claim. It is a matter of record.
+- **How Oceantech Serves Her:** Our operations are built on engineering discipline, not improvisation. Every inspection follows rigorous protocols. Every report is structured for engineering review. Our certifications are not credentials on a wall — they are the minimum standard we hold ourselves to. Our founders were pioneer PADI instructors in the Philippines. That is not a marketing claim. It is a matter of record.
 
 ### Persona 3: Mr. Lee — Regional Operations Manager (Oil & Gas / Shipping)
 
@@ -47,7 +47,7 @@ Oceantech Commercial Diving exists to set the standard for commercial underwater
 
 1. **Precision Above All** — Every cut, every weld, every measurement is executed to specification. We do not approximate. We do not estimate where exactness is required. Precision is the foundation of everything we deliver.
 
-2. **Mastery Through Discipline** — Our team carries 45 years of accumulated knowledge in the water, built on a family legacy that began when our founders became the first PADI-certified instructors in the Philippines. That experience is not nostalgia — it is operational advantage, sharpened by continuous training and relentless self-improvement.
+2. **Mastery Through Discipline** — Our team carries 45 years of accumulated knowledge in the water, built on a family legacy that began when our founders became pioneer PADI instructors in the Philippines. That experience is not nostalgia — it is operational advantage, sharpened by continuous training and relentless self-improvement.
 
 3. **Uncompromising Accountability** — We own every outcome. If we committed to a specification, we meet it. If we committed to a timeline, we hold it. No excuses. No qualifications. Our word is our contract before the paperwork is signed.
 

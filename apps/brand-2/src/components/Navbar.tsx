@@ -97,11 +97,11 @@ export default function Navbar() {
               alt="Oceantech logo"
               width={40}
               height={40}
-              className="w-10 h-10 md:w-10 md:h-10 w-8 h-8 transition-transform duration-300 group-hover:scale-105"
+              className="w-8 h-8 md:w-10 md:h-10 transition-transform duration-300 group-hover:scale-105"
               priority
             />
             <div className="flex flex-col leading-none">
-              <span className="font-display text-white text-lg tracking-widest">
+              <span className="font-display text-white text-sm md:text-base lg:text-xl tracking-widest">
                 OCEANTECH
               </span>
               <span className="font-heading text-gold text-[10px] tracking-[0.2em] uppercase">

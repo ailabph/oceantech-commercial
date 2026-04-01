@@ -7,7 +7,7 @@ export default function About() {
         {/* Asymmetric 2-column layout: 55% text / 45% image */}
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-[55%_45%] lg:gap-16">
           {/* ── Left column: text ── */}
-          <div className="flex flex-col gap-6">
+          <div className="order-last lg:order-first flex flex-col gap-6">
             {/* Overline */}
             <p className="font-heading text-sm uppercase tracking-[0.2em] text-copper">
               About Us
@@ -24,43 +24,30 @@ export default function About() {
 
             {/* Body paragraphs */}
             <p className="font-body leading-relaxed text-charcoal">
-              Oceantech Offshore Diving Services was established in 2016, but our story
-              starts much earlier. Our founders have been in the water since
-              1981&nbsp;&mdash; first as recreational divers working
-              Cebu&rsquo;s reefs, then as underwater professionals serving the
-              maritime and construction industries across the Philippines.
-              That&rsquo;s over 45&nbsp;years of reading currents, solving
-              problems at depth, and bringing people home safe. In fact, the
-              family behind Oceantech&nbsp;&mdash; the owners of Crispina
-              Aquatics&nbsp;&mdash; were the first PADI-certified diving
-              instructors in the Philippines, a distinction that speaks to the
-              depth of our roots in this industry.
+              Oceantech was founded in 2016, but our roots go back to 1981. The
+              family behind this company&nbsp;&mdash; operators of a PADI dive
+              shop at Costabella Resort&nbsp;&mdash; were pioneer PADI
+              instructors in the Philippines. We&rsquo;re a family business
+              based at Costabella Resort in Maribago, Lapu-Lapu City, with
+              over 45&nbsp;years in the water.
             </p>
 
             <p className="font-body leading-relaxed text-charcoal">
-              When we formed Oceantech, the goal was straightforward: take
-              everything we&rsquo;d learned in those years and build a
-              commercial diving company that does things the right way. No
-              shortcuts on safety. No guesswork on execution. Just experienced
-              divers, proper equipment, and honest work&nbsp;&mdash; the kind of
-              outfit we&rsquo;d want to hire if we were on the other side of the
-              table.
+              We built Oceantech to do things the right way. No shortcuts on
+              safety, no guesswork on execution&nbsp;&mdash; just experienced
+              divers, proper equipment, and honest work.
             </p>
 
             <p className="font-body leading-relaxed text-charcoal">
-              Based in Maribago, Lapu-Lapu City, we&rsquo;re proud to operate
-              from the heart of the Central Visayas. Cebu&rsquo;s maritime
-              heritage runs deep, and so does ours. This is a family business
-              with deep roots in Cebu&rsquo;s diving community&nbsp;&mdash; and
-              that personal connection to the water and the people who work on it
-              is something no corporate outfit can replicate. We know these
-              waters, we know this industry, and we show up ready to work.
+              Our clients include 2GO, OceanJet, Trans-Asia, Lite Ferries,
+              Cokaliong, SuperCat, FastCat, Starlite, Weesam Express, Philippine
+              Span Asia, Cebu Port Authority, OPASCOR, and Holcim. Most of our
+              work comes through word of mouth.
             </p>
 
             {/* Heritage callout */}
-            <blockquote className="mt-2 border-l-2 border-copper pl-4 font-heritage italic text-copper">
-              Recreational diving since 1981. Commercial diving since 2016. The
-              experience of a lifetime, working for you.
+            <blockquote className="mt-2 border-l-2 border-copper pl-4 font-heritage italic text-copper text-base lg:text-lg">
+              Recreational diving since 1981. Commercial diving since 2016.
             </blockquote>
 
             {/* PADI Pioneer badge */}
@@ -79,13 +66,13 @@ export default function About() {
                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z" />
               </svg>
               <span className="font-heading text-xs font-semibold uppercase tracking-wide text-teal">
-                First PADI Instructors in the Philippines
+                Pioneer PADI Instructors in the Philippines
               </span>
             </div>
           </div>
 
           {/* ── Right column: image ── */}
-          <div className="relative aspect-[4/5] w-full overflow-hidden rounded-sm shadow-md lg:aspect-[3/4]">
+          <div className="order-first lg:order-last relative aspect-[4/5] w-full overflow-hidden rounded-sm shadow-md lg:aspect-[3/4]">
             <Image
               src="/images/about.png"
               alt="Oceantech Offshore Diving Services team preparing for an underwater operation"

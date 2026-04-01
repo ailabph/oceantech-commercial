@@ -50,12 +50,12 @@ export default function Hero() {
             </div>
 
             {/* Headline */}
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-[#FAF3E8] leading-[1.1] mb-6">
+            <h1 className="font-display text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-[#FAF3E8] leading-[1.1] mb-6">
               Some crews talk about the water. We work in it.
             </h1>
 
             {/* Subheadline */}
-            <p className="font-body text-lg text-[#FAF3E8]/80 leading-relaxed max-w-2xl mb-10">
+            <p className="font-body text-base md:text-lg text-[#FAF3E8]/80 leading-relaxed max-w-2xl mb-10">
               Oceantech is a commercial diving outfit from Cebu — underwater
               welding, hull work, structural repair — built on 45 years of
               actually being in the ocean. The biggest shipping lines in the
@@ -66,13 +66,13 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-4 mb-16">
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center bg-[#C1440E] text-[#FAF3E8] px-8 py-4 rounded-sm font-body font-medium text-base transition-colors duration-300 hover:bg-[#A33A0C]"
+                className="w-full sm:w-auto inline-flex items-center justify-center bg-[#C1440E] text-[#FAF3E8] px-8 py-4 rounded-sm font-body font-medium text-base transition-colors duration-300 hover:bg-[#A33A0C]"
               >
                 Tell Us What You Need
               </a>
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center border-2 border-[#FAF3E8]/50 text-[#FAF3E8] px-8 py-4 rounded-sm font-body font-medium text-base transition-colors duration-300 hover:bg-[#FAF3E8]/10"
+                className="w-full sm:w-auto inline-flex items-center justify-center border-2 border-[#FAF3E8]/50 text-[#FAF3E8] px-8 py-4 rounded-sm font-body font-medium text-base transition-colors duration-300 hover:bg-[#FAF3E8]/10"
               >
                 Let&apos;s Talk About the Job
               </a>
@@ -88,7 +88,7 @@ export default function Hero() {
         {/* Stats Bar */}
         <div className="relative z-10 border-t border-[#FAF3E8]/10 mt-auto">
           <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 md:gap-12">
               {stats.map((stat) => (
                 <div key={stat.value} className="flex flex-col gap-1">
                   <span className="font-display text-2xl text-[#C1440E]">

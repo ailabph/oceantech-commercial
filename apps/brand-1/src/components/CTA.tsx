@@ -20,7 +20,7 @@ export default function CTA() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-2xl text-center">
-        <h2 className="font-heading font-bold text-4xl text-white mb-6">
+        <h2 className="font-heading font-bold text-3xl md:text-4xl text-white mb-6">
           Let&apos;s talk about your next project.
         </h2>
 
@@ -35,13 +35,13 @@ export default function CTA() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
           <a
             href="#quote"
-            className="bg-orange text-white px-8 py-4 font-heading font-semibold transition-colors hover:bg-orange-dark"
+            className="w-full sm:w-auto bg-orange text-white px-8 py-4 font-heading font-semibold transition-colors hover:bg-orange-dark text-center"
           >
             Request a Quote
           </a>
           <a
             href="tel:18005550199"
-            className="border-2 border-white text-white px-8 py-4 font-heading font-semibold transition-colors hover:bg-white/10"
+            className="w-full sm:w-auto border-2 border-white text-white px-8 py-4 font-heading font-semibold transition-colors hover:bg-white/10 text-center"
           >
             Call Our Team
           </a>

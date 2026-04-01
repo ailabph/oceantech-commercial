@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const clients = [
   { src: "/logos/clients/2go.png", alt: "2GO Group" },
   { src: "/logos/clients/supercat.png", alt: "SuperCat" },
@@ -22,18 +24,19 @@ export default function Clients() {
           Trusted by the Philippines&apos; top shipping lines
         </p>
 
-        <div className="flex flex-wrap justify-center items-center gap-x-8 gap-y-6">
+        <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-4 md:gap-x-8 md:gap-y-6">
           {clients.map((client) => (
             <div
               key={client.alt}
               className="grayscale hover:grayscale-0 opacity-50 hover:opacity-100 transition-all duration-300"
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              <Image
                 src={client.src}
                 alt={client.alt}
-                className="h-8 md:h-10 w-auto object-contain"
-                loading="lazy"
+                width={0}
+                height={0}
+                sizes="100vw"
+                className="h-7 md:h-10 w-auto"
               />
             </div>
           ))}

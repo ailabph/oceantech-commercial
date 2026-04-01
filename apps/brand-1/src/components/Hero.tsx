@@ -42,12 +42,12 @@ export default function Hero() {
           </p>
 
           {/* Headline */}
-          <h1 className="max-w-2xl font-heading text-4xl font-bold leading-[1.1] text-white sm:text-5xl lg:text-6xl">
+          <h1 className="max-w-2xl font-heading text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-[1.1] text-white">
             Commercial diving built on 45&nbsp;years of ocean experience.
           </h1>
 
           {/* Subheadline */}
-          <p className="max-w-xl font-body text-lg leading-relaxed text-white/80">
+          <p className="max-w-xl font-body text-base md:text-lg leading-relaxed text-white/80 line-clamp-2 sm:line-clamp-none">
             From Cebu&rsquo;s waters to yours — underwater welding, inspection,
             hull maintenance, and structural repair delivered by a crew
             that&rsquo;s been diving since 1981.
@@ -57,13 +57,13 @@ export default function Hero() {
           <div className="flex flex-col gap-4 pt-2 sm:flex-row sm:items-center">
             <a
               href="#quote"
-              className="inline-flex items-center justify-center rounded-sm bg-orange px-8 py-4 font-heading text-base font-semibold text-white transition-colors hover:bg-orange-dark"
+              className="w-full sm:w-auto inline-flex items-center justify-center rounded-sm bg-orange px-8 py-4 font-heading text-base font-semibold text-white transition-colors hover:bg-orange-dark"
             >
               Request a Project Quote
             </a>
             <a
               href="#contact"
-              className="inline-flex items-center justify-center rounded-sm border-2 border-white px-8 py-4 font-heading text-base font-semibold text-white transition-colors hover:bg-white/10"
+              className="w-full sm:w-auto inline-flex items-center justify-center rounded-sm border-2 border-white px-8 py-4 font-heading text-base font-semibold text-white transition-colors hover:bg-white/10"
             >
               Talk to Our Team
             </a>
@@ -73,7 +73,7 @@ export default function Hero() {
         {/* Bottom bar — stats + heritage callout */}
         <div className="mt-16 flex flex-col gap-8 border-t border-white/10 pt-8 lg:mt-20 lg:flex-row lg:items-end lg:justify-between">
           {/* Stats row */}
-          <div className="flex flex-wrap gap-10 lg:gap-16">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 lg:gap-16">
             {stats.map((stat) => (
               <div key={stat.value} className="flex flex-col gap-1">
                 <span className="font-heading text-3xl font-bold text-orange lg:text-4xl">

@@ -22,7 +22,7 @@
 
 ### Brand Story
 
-Oceantech Commercial Diving was established in 2016, but our roots reach back to 1981 — when our founders began diving from Crispina Aquatics at Costabella Tropical Beach Resort in Maribago, Mactan Island. They went on to become the first PADI-certified diving instructors in the Philippines, pioneering recreational diving in the Cebu region and training a generation of divers who followed.
+Oceantech Commercial Diving was established in 2016, but our roots reach back to 1981 — when our founders began diving from a PADI dive shop at Costabella Tropical Beach Resort in Maribago, Mactan Island. They went on to become pioneer PADI instructors in the Philippines, pioneering recreational diving in the Cebu region and training a generation of divers who followed.
 
 Over the decades that followed, they built a depth of knowledge that can only come from time spent beneath the surface: reading currents, understanding marine structures, and developing an instinct for the ocean that no classroom can teach. As a family business, that knowledge has been passed down and refined across generations.
 
@@ -42,7 +42,7 @@ To be the most trusted name in commercial diving across the Visayas and the Phil
 
 1. **Safety Without Compromise** — Every dive plan, every procedure, every decision starts with safety. No exceptions, no shortcuts. This is not a policy — it is who we are.
 
-2. **Earned Expertise** — Our knowledge was not learned in a classroom alone. It was built across 45 years in the water — from recreational reefs to commercial hulls. Our founders were the first PADI-certified instructors in the Philippines, and that pioneering spirit still drives us today. We know the ocean because we have lived in it.
+2. **Earned Expertise** — Our knowledge was not learned in a classroom alone. It was built across 45 years in the water — from recreational reefs to commercial hulls. Our founders were pioneer PADI instructors in the Philippines, and that pioneering spirit still drives us today. We know the ocean because we have lived in it.
 
 3. **Honest Work** — Transparent pricing. Honest assessments. We tell you what needs to be done, not what makes us more money. Our reputation is worth more than any single contract.
 
@@ -526,7 +526,7 @@ The Oceantech voice is consistent across all communications. It reflects who we 
 | **Locally Proud** | Cebu-rooted, regionally capable. We own where we come from. | "From Maribago to every port in the Visayas." |
 | **Technically Credible** | Precise when the context demands it. We know the standards. | "AWS D3.6M certified wet welding, ADCI-compliant surface-supplied operations." |
 | **Warm** | Approachable and human. We build relationships, not just client lists. | "We're straightforward people, and we're happy to talk through what you need." |
-| **Heritage** | Pioneering credibility rooted in family and community. | "The first PADI instructors in the Philippines — a family tradition of diving excellence rooted in Cebu." |
+| **Heritage** | Pioneering credibility rooted in family and community. | "Pioneer PADI instructors in the Philippines — a family tradition of diving excellence rooted in Cebu." |
 
 ### 6.2 Tone Spectrum
 
@@ -610,7 +610,7 @@ _Recreational diving since 1981. Commercial diving since 2016. The experience of
 > We handle the full range of commercial diving work — from routine hull cleaning to complex underwater welding and structural repair. Every job gets the same level of preparation, the same safety standards, and the same crew discipline.
 
 **About excerpt:**
-> Oceantech Commercial Diving was established in 2016, but our story starts much earlier. Our founders — the family behind Crispina Aquatics and the first PADI-certified instructors in the Philippines — have been in the water since 1981, first as recreational divers working Cebu's reefs, then as underwater professionals serving the maritime and construction industries across the Philippines.
+> Oceantech Commercial Diving was established in 2016, but our story starts much earlier. Our founders — the operators of a PADI dive shop at Costabella Resort and pioneer PADI instructors in the Philippines — have been in the water since 1981, first as recreational divers working Cebu's reefs, then as underwater professionals serving the maritime and construction industries across the Philippines.
 
 **CTA line:**
 > Whether you need a quote, want to discuss a scope of work, or just have a question about what's possible underwater — reach out.

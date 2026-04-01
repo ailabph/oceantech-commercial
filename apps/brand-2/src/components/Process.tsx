@@ -3,25 +3,25 @@ const phases = [
     number: "01",
     title: "BRIEF",
     description:
-      "Scope defined. Requirements locked. Deliverables, timeline, constraints established before equipment mobilization.",
+      "Scope defined, requirements locked, deliverables and constraints established before mobilization.",
   },
   {
     number: "02",
     title: "ASSESSMENT",
     description:
-      "Site conditions evaluated. Water environment, structural context, hazards surveyed and documented. Dive plan built from data.",
+      "Site conditions, hazards, and structural context surveyed — dive plan built from data.",
   },
   {
     number: "03",
     title: "EXECUTION",
     description:
-      "Crew deployed with task-specific equipment and clear protocols. Continuous surface-to-diver communication. Strict safety adherence.",
+      "Crew deployed with task-specific equipment, continuous comms, and strict safety adherence.",
   },
   {
     number: "04",
     title: "REPORTING",
     description:
-      "Full documentation — photography, video, measurements, findings, recommendations. Structured for technical review.",
+      "Full documentation — photography, video, measurements, and findings — structured for technical review.",
   },
 ];
 
@@ -51,7 +51,7 @@ export default function Process() {
               className="relative px-0 md:px-6"
             >
               {/* Large watermark number */}
-              <span className="pointer-events-none select-none font-display text-7xl text-gold/15">
+              <span className="pointer-events-none select-none font-display text-5xl md:text-7xl text-gold/15">
                 {phase.number}
               </span>
 

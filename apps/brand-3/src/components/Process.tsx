@@ -3,25 +3,25 @@ const steps = [
     number: "01",
     title: "You tell us what's going on.",
     description:
-      "Call, email, whatever works. Tell us what the problem is. We'll ask questions — some obvious, but the obvious stuff saves time later.",
+      "Call, email, whatever works — the obvious questions now save time later.",
   },
   {
     number: "02",
     title: "We go look at it.",
     description:
-      "Before anyone starts cutting or welding, we assess the site. We build a dive plan from what we find, not from what we hope to find.",
+      "We build a dive plan from what we find, not from what we hope to find.",
   },
   {
     number: "03",
     title: "We do the work.",
     description:
-      "Crew shows up with the right equipment and the right people. Safety procedures aren't optional — they're the reason everyone goes home.",
+      "Right equipment, right people, safety procedures that aren't optional.",
   },
   {
     number: "04",
     title: "You get the full picture.",
     description:
-      "Photos, video, measurements, what we found, what we did, what we'd recommend keeping an eye on. It's thorough because you're going to need it.",
+      "Photos, video, measurements, and honest recommendations — thorough because you'll need it.",
   },
 ];
 
@@ -51,7 +51,7 @@ export default function Process() {
           {steps.map((step, index) => (
             <div key={step.number} className="relative">
               {/* Large background number */}
-              <span className="font-display text-6xl leading-none text-green/15">
+              <span className="font-display text-4xl md:text-6xl leading-none text-green/15">
                 {step.number}
               </span>
 

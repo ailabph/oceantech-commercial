@@ -22,44 +22,33 @@ export default function About() {
               <p>
                 It started in 1981 in Maribago — a small stretch of coast on
                 Lapu-Lapu City&apos;s eastern shore, where the Cebu Strait runs
-                deep and the current teaches you respect fast. Back then, it was
-                recreational diving. Reef work. Taking people down and bringing
-                them back up. The founders were the first PADI-certified
-                instructors in the Philippines — pioneers who didn&apos;t just
-                learn to dive, they helped set the standard for an entire
-                country. This has always been a family operation — the knowledge,
-                the discipline, the deep respect for the water passed down
-                through generations.
+                deep and the current teaches you respect fast. The founders were
+                pioneer PADI instructors in the Philippines — they built a dive
+                shop at Costabella Resort on Mactan and helped set the standard
+                for an entire country. This has always been a family
+                operation — the knowledge, the discipline, the deep respect for
+                the water passed down through generations.
               </p>
 
               <p>
                 That went on for 35 years. Thirty-five years of salt water, sun,
-                and solving problems at depth before Oceantech Offshore Diving
-                Services became an actual company in 2016. The transition to
-                commercial diving wasn&apos;t a reinvention. It was just putting
-                a name to what the crew had been building toward for decades.
+                and solving problems at depth before Oceantech became an actual
+                company in 2016. The transition to commercial diving
+                wasn&apos;t a reinvention — it was just putting a name to what
+                the crew had been building toward for decades.
               </p>
 
               <p>
-                We&apos;re still based in Maribago. The boats still go out from
-                the same water. The difference now is the jobs are bigger, the
-                stakes are higher, and the people calling us need things done
-                right the first time.
-              </p>
-
-              <p>
-                Somewhere along the way, the phone started ringing from bigger
-                names. 2GO. OceanJet. Trans-Asia. Lite Ferries. Cokaliong.
-                SuperCat. FastCat. Starlite. Weesam. Span Asia. The Cebu Port
-                Authority. OPASCOR. Holcim Philippines. We didn&apos;t chase
-                those contracts with a pitch deck — they found us because
-                somebody they trusted told them we do good work. Word of mouth,
-                one hull at a time.
+                2GO. OceanJet. Trans-Asia. Lite Ferries. Cokaliong. SuperCat.
+                FastCat. Starlite. Weesam. Span Asia. Cebu Port Authority.
+                OPASCOR. Holcim Philippines. They found us because somebody they
+                trusted told them we do good work. Word of mouth, one hull at a
+                time.
               </p>
             </div>
 
             {/* Pull Quote */}
-            <blockquote className="mt-8 font-heading italic text-green border-l-4 border-rust pl-6 text-lg leading-relaxed">
+            <blockquote className="mt-8 font-heading italic text-green border-l-4 border-rust pl-4 lg:pl-6 text-base lg:text-lg leading-relaxed">
               &ldquo;We didn&apos;t start this company because we saw a market
               opportunity. We started it because we&apos;d already been doing
               the work for 35 years and figured it was time to make it
@@ -68,12 +57,12 @@ export default function About() {
 
             {/* PADI Badge */}
             <div className="mt-8 inline-block bg-green/10 text-green font-body text-sm font-medium px-4 py-2 rounded-sm">
-              First PADI Instructors in the Philippines
+              Pioneer PADI Instructors in the Philippines
             </div>
           </div>
 
           {/* Image Column */}
-          <div className="relative">
+          <div className="relative order-first lg:order-last">
             <Image
               src="/images/about.png"
               alt="Oceantech Offshore Diving Services — heritage diving operations in Maribago, Cebu"

@@ -29,7 +29,7 @@ export default function Hero() {
       />
 
       {/* ── Content ── */}
-      <div className="relative z-10 flex-1 flex flex-col justify-center max-w-7xl w-full mx-auto px-6 lg:px-10 pt-28 pb-8">
+      <div className="relative z-10 flex-1 flex flex-col justify-center max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-10 pt-24 sm:pt-28 pb-8">
         <div className="max-w-2xl">
           {/* Overline */}
           <div className="flex items-center gap-4 mb-6">
@@ -40,7 +40,7 @@ export default function Hero() {
           </div>
 
           {/* Headline */}
-          <h1 className="font-display text-6xl lg:text-7xl text-white uppercase tracking-tight leading-none mb-6">
+          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white uppercase tracking-tight leading-none mb-6">
             Engineered
             <br />
             for the Deep.
@@ -54,16 +54,16 @@ export default function Hero() {
           </p>
 
           {/* CTAs */}
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-col sm:flex-row flex-wrap gap-4">
             <a
               href="#contact"
-              className="bg-gold text-navy px-8 py-4 font-heading font-semibold uppercase text-sm tracking-wide transition-all duration-200 hover:bg-gold-dark hover:shadow-lg hover:shadow-gold/20"
+              className="w-full sm:w-auto text-center bg-gold text-navy px-8 py-4 font-heading font-semibold uppercase text-sm tracking-wide transition-all duration-200 hover:bg-gold-dark hover:shadow-lg hover:shadow-gold/20"
             >
               Deploy Our Team
             </a>
             <a
               href="#contact"
-              className="border border-white text-white px-8 py-4 font-heading font-semibold uppercase text-sm tracking-wide transition-all duration-200 hover:bg-white/10"
+              className="w-full sm:w-auto text-center border border-white text-white px-8 py-4 font-heading font-semibold uppercase text-sm tracking-wide transition-all duration-200 hover:bg-white/10"
             >
               Request a Scope Assessment
             </a>
@@ -81,7 +81,7 @@ export default function Hero() {
       {/* ── Stats Bar ── */}
       <div className="relative z-10 border-t border-divider">
         <div className="max-w-7xl mx-auto px-6 lg:px-10 py-8">
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
             {stats.map((stat) => (
               <div key={stat.value} className="text-center lg:text-left">
                 <span className="block font-display text-4xl text-gold mb-1">
