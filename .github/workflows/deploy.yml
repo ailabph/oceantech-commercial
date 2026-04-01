@@ -1,0 +1,60 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detect changed brands
+        id: changes
+        run: |
+          CHANGED=$(git diff --name-only HEAD~1 HEAD)
+          echo "brand1=$(echo "$CHANGED" | grep -q "^apps/brand-1/" && echo true || echo false)" >> $GITHUB_OUTPUT
+          echo "brand2=$(echo "$CHANGED" | grep -q "^apps/brand-2/" && echo true || echo false)" >> $GITHUB_OUTPUT
+          echo "brand3=$(echo "$CHANGED" | grep -q "^apps/brand-3/" && echo true || echo false)" >> $GITHUB_OUTPUT
+          echo "Changed files: $CHANGED"
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          cat > ~/.ssh/config << SSHEOF
+          Host jump
+            HostName ${{ secrets.JUMP_HOST }}
+            User root
+            IdentityFile ~/.ssh/deploy_key
+            StrictHostKeyChecking no
+          Host vps
+            HostName ${{ secrets.VPS_HOST }}
+            User ${{ secrets.VPS_USER }}
+            IdentityFile ~/.ssh/deploy_key
+            ProxyJump jump
+            StrictHostKeyChecking no
+          SSHEOF
+
+      - name: Pull latest code
+        run: ssh vps "cd ~/oceantech-commercial && git pull"
+
+      - name: Deploy brand-1
+        if: steps.changes.outputs.brand1 == true
+        run: |
+          ssh vps "cd ~/oceantech-commercial/apps/brand-1 && npm install && npm run build && systemctl --user restart oceantech-brand-1"
+
+      - name: Deploy brand-2
+        if: steps.changes.outputs.brand2 == true
+        run: |
+          ssh vps "cd ~/oceantech-commercial/apps/brand-2 && npm install && npm run build && systemctl --user restart oceantech-brand-2"
+
+      - name: Deploy brand-3
+        if: steps.changes.outputs.brand3 == true
+        run: |
+          ssh vps "cd ~/oceantech-commercial/apps/brand-3 && npm install && npm run build && systemctl --user restart oceantech-brand-3"
