@@ -65,7 +65,9 @@ export default function About() {
         <div className="mt-12 flex gap-3">
           {[
             { src: "/images/actual/actual-photo-9.jpg", alt: "Three divers on boat with blue helmets during bridge construction" },
+            { src: "/images/actual/actual-photo-18.jpg", alt: "Diver at piling with vessel name visible" },
             { src: "/images/actual/actual-photo-8.jpg", alt: "Barge with crane and heavy marine equipment" },
+            { src: "/images/actual/actual-photo-11.jpg", alt: "Diver submerging at pier" },
             { src: "/images/actual/actual-photo-10.jpg", alt: "Dive platform with scuba tanks, diver prepping equipment" },
           ].map((photo) => (
             <div key={photo.src} className="relative h-32 w-auto flex-1 overflow-hidden">
@@ -73,7 +75,7 @@ export default function About() {
                 src={photo.src}
                 alt={photo.alt}
                 fill
-                className="object-cover brightness-90"
+                className="object-cover brightness-90 grayscale-[30%]"
               />
               <div className="pointer-events-none absolute inset-0 bg-navy/30" />
             </div>

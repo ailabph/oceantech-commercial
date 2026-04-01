@@ -153,6 +153,14 @@ export default function WhyUs() {
                 className="object-cover"
               />
             </div>
+            <div className="relative w-14 h-14 rounded-full overflow-hidden border-2 border-gold/30 flex-shrink-0">
+              <Image
+                src="/images/actual/actual-photo-15.jpg"
+                alt="Crew at water level with DIVER helmet"
+                fill
+                className="object-cover"
+              />
+            </div>
           </div>
         </div>
 

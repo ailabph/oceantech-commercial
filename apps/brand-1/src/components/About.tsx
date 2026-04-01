@@ -93,8 +93,18 @@ export default function About() {
               className="h-32 w-auto rounded-sm object-cover shadow-sm"
             />
             <img
+              src="/images/actual/actual-photo-14.jpg"
+              alt="Smiling female crew member in the water during operations"
+              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+            />
+            <img
               src="/images/actual/actual-photo-10.jpg"
               alt="Dive platform with scuba tanks and equipment, diver prepping"
+              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+            />
+            <img
+              src="/images/actual/actual-photo-21.jpg"
+              alt="Two crew members in life vests under bridge during operations"
               className="h-32 w-auto rounded-sm object-cover shadow-sm"
             />
             <img

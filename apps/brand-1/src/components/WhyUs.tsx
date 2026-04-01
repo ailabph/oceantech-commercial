@@ -177,6 +177,11 @@ export default function WhyUs() {
               alt="Crew member portrait wearing blue DIVER helmet on boat"
               className="h-16 w-16 rounded-full object-cover shadow-md ring-2 ring-copper/40"
             />
+            <img
+              src="/images/actual/actual-photo-13.jpg"
+              alt="Intense close-up of diver wearing DIVER helmet"
+              className="h-16 w-16 rounded-full object-cover shadow-md ring-2 ring-copper/40"
+            />
             <p className="font-body text-sm text-white/60 max-w-xs text-center">
               Real people, real experience — our divers in the field.
             </p>

@@ -15,6 +15,15 @@ export default function CTA() {
       {/* Heavy Navy Overlay */}
       <div className="absolute inset-0 bg-navy/80" />
 
+      {/* Crew inset photo */}
+      <Image
+        src="/images/actual/actual-photo-21.jpg"
+        alt="Two crew members in life vests"
+        width={192}
+        height={128}
+        className="absolute bottom-6 right-6 w-48 h-32 object-cover border border-gold/20 brightness-75 hidden lg:block z-10"
+      />
+
       {/* Content */}
       <div className="relative z-10 max-w-2xl mx-auto text-center">
         <h2 className="font-display text-3xl md:text-4xl lg:text-5xl uppercase text-white mb-6">

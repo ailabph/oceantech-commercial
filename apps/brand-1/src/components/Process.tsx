@@ -66,6 +66,15 @@ export default function Process() {
                 <p className="font-body text-base text-charcoal/70 max-w-xs">
                   {step.description}
                 </p>
+
+                {/* Accent image for Step 3 (Execution) */}
+                {step.number === "03" && (
+                  <img
+                    src="/images/actual/actual-photo-20.jpg"
+                    alt="Diver entering water with plank during execution phase"
+                    className="hidden lg:block w-full aspect-[4/3] object-cover rounded-sm mt-4"
+                  />
+                )}
               </div>
             </div>
           ))}

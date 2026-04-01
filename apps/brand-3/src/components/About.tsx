@@ -78,7 +78,7 @@ export default function About() {
           <p className="font-heading italic text-green/60 text-sm mb-4">
             The crew. The work. The water.
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+          <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-9 gap-2">
             <img
               src="/images/actual/actual-photo-1.jpg"
               alt="Crew member portrait wearing blue DIVER helmet"
@@ -90,8 +90,18 @@ export default function About() {
               className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
             />
             <img
+              src="/images/actual/actual-photo-14.jpg"
+              alt="Smiling female crew member in the water — incredible authenticity"
+              className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
+            />
+            <img
               src="/images/actual/actual-photo-4.jpg"
               alt="Two divers in wetsuits at pier site with safety signs"
+              className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
+            />
+            <img
+              src="/images/actual/actual-photo-16.jpg"
+              alt="Candid crew downtime moment on site"
               className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
             />
             <img
@@ -100,8 +110,18 @@ export default function About() {
               className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
             />
             <img
+              src="/images/actual/actual-photo-21.jpg"
+              alt="Two crew members working under bridge structure"
+              className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
+            />
+            <img
               src="/images/actual/actual-photo-5.jpg"
               alt="Vessel WEST OCEAN 17, diver entering the water"
+              className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
+            />
+            <img
+              src="/images/actual/actual-photo-18.jpg"
+              alt="Diver working at piling underwater"
               className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
             />
           </div>

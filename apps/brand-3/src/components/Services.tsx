@@ -171,10 +171,15 @@ export default function Services() {
 
         {/* From the Field — Photo Strip */}
         <div className="mt-10 mb-10">
-          <div className="flex gap-3 overflow-x-auto pb-2">
+          <div className="flex overflow-x-auto gap-3 pb-2">
             <img
               src="/images/actual/actual-photo-3.jpg"
               alt="Port and pier infrastructure, steel construction"
+              className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
+            />
+            <img
+              src="/images/actual/actual-photo-11.jpg"
+              alt="Diver submerging into the water"
               className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
             />
             <img
@@ -183,13 +188,28 @@ export default function Services() {
               className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
             />
             <img
+              src="/images/actual/actual-photo-20.jpg"
+              alt="Diver entering the water from platform"
+              className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
+            />
+            <img
               src="/images/actual/actual-photo-8.jpg"
               alt="Barge with crane and heavy marine equipment"
               className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
             />
             <img
+              src="/images/actual/actual-photo-12.jpg"
+              alt="Pier construction site with heavy equipment"
+              className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
+            />
+            <img
               src="/images/actual/actual-photo-5.jpg"
               alt="Vessel WEST OCEAN 17, diver entering the water"
+              className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
+            />
+            <img
+              src="/images/actual/actual-photo-17.jpg"
+              alt="Barge on the water during operations"
               className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
             />
           </div>
