@@ -1,4 +1,4 @@
-# Oceantech Commercial Diving — Brand Writeup
+# Oceantech Offshore Diving Services — Brand Writeup
 
 > Website copy direction document
 > Brand 3 — Raw, honest, storytelling-driven, rugged authenticity
@@ -25,7 +25,7 @@
 Some crews talk about the water. We work in it.
 
 **Subheadline:**
-Oceantech is a commercial diving outfit from Cebu — underwater welding, hull work, structural repair — built on 45 years of actually being in the ocean.
+Oceantech is a commercial diving outfit from Cebu — underwater welding, hull work, structural repair — built on 45 years of actually being in the ocean. The biggest shipping lines in the Philippines trust us with their vessels. That's not a sales pitch — it's just what happened when you do the work right for long enough.
 
 **CTA Button Text:**
 - Option A: Tell Us What You Need
@@ -41,6 +41,16 @@ Oceantech is a commercial diving outfit from Cebu — underwater welding, hull w
 
 ---
 
+## 2a. Trusted By Section Copy
+
+**Overline:**
+The companies that move the Philippines trust us with their vessels
+
+**Body:**
+We didn't go looking for the biggest names in Philippine shipping. They came to us — because someone they knew told them we'd get the job done right.
+
+---
+
 ## 3. About Section Copy
 
 **Section Headline:**
@@ -50,10 +60,13 @@ This isn't a company story. It's a diving story.
 It started in 1981 in Maribago — a small stretch of coast on Lapu-Lapu City's eastern shore, where the Cebu Strait runs deep and the current teaches you respect fast. Back then, it was recreational diving. Reef work. Taking people down and bringing them back up. The founders were the first PADI-certified instructors in the Philippines — pioneers who didn't just learn to dive, they helped set the standard for an entire country. You learn a lot in water like that. You learn how to read what the ocean is telling you. You learn that the plan you made on the surface doesn't always survive the first ten meters. And you learn that the only gear that matters is the stuff that works when things go sideways. This has always been a family operation — the knowledge, the discipline, the deep respect for the water passed down through generations.
 
 **Paragraph 2:**
-That went on for 35 years. Thirty-five years of salt water, sun, and solving problems at depth before Oceantech Commercial Diving became an actual company in 2016. But the truth is, by then, the work had already been the work for a long time. The transition to commercial diving — welding, cutting, hull maintenance, structural repair, NDT inspection — wasn't a reinvention. It was just putting a name to what the crew had been building toward for decades.
+That went on for 35 years. Thirty-five years of salt water, sun, and solving problems at depth before Oceantech Offshore Diving Services became an actual company in 2016. But the truth is, by then, the work had already been the work for a long time. The transition to commercial diving — welding, cutting, hull maintenance, structural repair, NDT inspection — wasn't a reinvention. It was just putting a name to what the crew had been building toward for decades.
 
 **Paragraph 3:**
 We're still based in Maribago. The boats still go out from the same water. The difference now is the jobs are bigger, the stakes are higher, and the people calling us need things done right the first time. That part hasn't changed, actually. It was always like that.
+
+**Paragraph 4:**
+Somewhere along the way, the phone started ringing from bigger names. 2GO. OceanJet. Trans-Asia. Lite Ferries. Cokaliong. SuperCat. FastCat. Starlite. Weesam. Span Asia. The Cebu Port Authority called. OPASCOR. Even Holcim Philippines. We didn't chase those contracts with a pitch deck — they found us because somebody they trusted told them we do good work. That's how it's always been. Word of mouth, one hull at a time.
 
 **Pull-Quote:**
 _"We didn't start this company because we saw a market opportunity. We started it because we'd already been doing the work for 35 years and figured it was time to make it official."_
@@ -151,4 +164,4 @@ We're not hard to reach and we don't make you jump through hoops. Tell us what's
 
 ## 8. Footer Tagline
 
-_Oceantech Commercial Diving — been in the water since before most companies were on paper._
+_Oceantech Offshore Diving Services — been in the water since before most companies were on paper._

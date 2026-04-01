@@ -1,4 +1,4 @@
-# Oceantech Commercial Diving — Brand Writeup
+# Oceantech Offshore Diving Services — Brand Writeup
 
 > Website copy direction document
 > Brand 2 — Bold, commanding, premium, industrial precision
@@ -25,7 +25,7 @@
 Engineered for the deep.
 
 **Subheadline:**
-Underwater welding, structural repair, and marine services executed with the precision of 45 years in the water.
+Underwater welding, structural repair, and marine services executed with the precision of 45 years in the water. Trusted by the Philippines' top shipping lines.
 
 **CTA Button Text:**
 - Option A: Deploy Our Team
@@ -41,19 +41,32 @@ Underwater welding, structural repair, and marine services executed with the pre
 
 ---
 
+## 2a. Trusted By Section Copy
+
+**Overline:**
+Deployed by the operators who move the Philippines
+
+**Body:**
+10 major shipping lines. The Cebu Port Authority. A global industrial leader. Our client list is not a marketing claim — it is a performance record.
+
+---
+
 ## 3. About Section Copy
 
 **Section Headline:**
 Forged in the water. Proven under pressure.
 
 **Paragraph 1:**
-Oceantech Commercial Diving exists because the ocean doesn't tolerate amateurs. Founded in 2016 and operating from Lapu-Lapu City, Cebu, we deliver commercial diving services across the Philippines — underwater welding, cutting, inspection, structural repair, and marine maintenance. Every operation is planned with discipline and executed without compromise.
+Oceantech Offshore Diving Services exists because the ocean doesn't tolerate amateurs. Founded in 2016 and operating from Lapu-Lapu City, Cebu, we deliver commercial diving services across the Philippines — underwater welding, cutting, inspection, structural repair, and marine maintenance. Every operation is planned with discipline and executed without compromise.
 
 **Paragraph 2:**
 Our team has been diving since 1981. That's not a tagline — it's 45 years of accumulated technical knowledge, operational problem-solving, and performance in hostile environments. Our founders were the first PADI-certified diving instructors in the Philippines — credentials earned when the industry in this country barely existed. Recreational diving built the foundation. Commercial diving sharpened it into something the maritime and construction industries rely on when the margin for error is zero. This is a family-built operation, and the discipline runs generational.
 
 **Paragraph 3:**
 We don't trade on nostalgia. We trade on capability. The depth of our experience translates directly into faster assessments, tighter execution, and outcomes that hold up to scrutiny — subsurface and above.
+
+**Paragraph 4:**
+Our client roster includes 10 of the Philippines' major shipping lines — 2GO Group, OceanJet, Trans-Asia, SuperCat, Lite Ferries, Cokaliong, FastCat, Starlite, Weesam Express, and Philippine Span Asia — along with the Cebu Port Authority, OPASCOR, and Holcim Philippines. These are not aspirational targets. They are current, active relationships built on delivered results. When the operators who move this country's cargo and passengers deploy our team, it is because the work we produce meets the standard their operations demand.
 
 **Authority Callout Line:**
 _45 years of operational depth. Zero tolerance for anything less than precise._
@@ -157,4 +170,4 @@ Define the scope. We'll define the solution. Contact our operations team to disc
 
 ## 8. Footer Tagline
 
-_Oceantech Commercial Diving — precision at depth._
+_Oceantech Offshore Diving Services — precision at depth._
