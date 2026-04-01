@@ -1,4 +1,4 @@
-## Oceantech Commercial Diving: Competitive Intelligence Report
+## Oceantech Offshore Diving Services: Competitive Intelligence Report
 
 ---
 
@@ -6,7 +6,7 @@
 
 After analyzing commercial diving companies across Cebu/Visayas, the Philippines, and Southeast Asia, I've identified significant opportunities for Oceantech to differentiate through **heritage storytelling, authentic imagery, and a distinctive visual identity** that breaks from industry conventions.
 
-**Key Finding:** The commercial diving industry is visually homogeneous—dominated by blues, generic diver imagery, and outdated website designs. Oceantech's **1981 recreational diving roots** represent an untapped narrative advantage that no competitor is leveraging.
+**Key Finding:** The commercial diving industry is visually homogeneous—dominated by blues, generic diver imagery, and outdated website designs. Oceantech's **1981 recreational diving roots** and **proven client portfolio spanning the Philippines' top shipping lines** represent untapped narrative advantages that no competitor is leveraging.
 
 ---
 
@@ -161,7 +161,7 @@ After analyzing commercial diving companies across Cebu/Visayas, the Philippines
 
 ### Brand Positioning Statement
 
-> **"Oceantech Commercial Diving: Where 45 years of diving passion meets industrial precision. Born from Cebu's waters, built for the maritime industry."**
+> **"Oceantech Offshore Diving Services: Where 45 years of diving passion meets industrial precision. Born from Cebu's waters, trusted by the Philippines' top shipping lines."**
 
 ### Visual Identity Recommendations
 
@@ -225,13 +225,51 @@ After analyzing commercial diving companies across Cebu/Visayas, the Philippines
 | **Maribago, Lapu-Lapu base** | "Cebu's commercial diving experts" | Contact, Footer, Local SEO |
 | **Full service capability** | Service icons with clear descriptions | Services page, Homepage grid |
 | **Experienced team** | Named divers with photos and credentials | Dedicated Team page |
+| **Major client portfolio** | "Trusted by the Philippines' top shipping lines" | Homepage logo strip, Clients page |
+| **Port infrastructure experience** | "From Cebu's main docks to industrial piers" | Services page, Case studies |
+
+### Client Portfolio — A Major Differentiator
+
+Oceantech has an established client base that most Philippine competitors cannot match. This portfolio is a powerful trust signal and should be prominently featured on the website.
+
+#### Shipping Lines (10 of the Philippines' top operators)
+
+| Client | Type | Significance |
+|--------|------|-------------|
+| **2GO Group** | Passenger & cargo | Largest shipping conglomerate in the Philippines |
+| **SuperCat** | Fast-craft ferries | Major Visayas operator |
+| **OceanJet** | Fast-craft ferries | Largest fast-craft operator in the Visayas |
+| **Trans-Asia Shipping Lines** | Passenger & cargo | Established Cebu-based shipping leader |
+| **Lite Ferries** | RORO ferries | Major Visayas-Mindanao RORO operator |
+| **Cokaliong Shipping Lines** | Passenger & cargo | Long-standing Cebu-based inter-island operator |
+| **FastCat** | RORO ferries | Fast-growing nationwide operator |
+| **Starlite Ferries** | RORO ferries | Key Batangas-Mindoro-Visayas operator |
+| **Weesam Express** | Fast-craft ferries | Western Visayas fast-ferry leader |
+| **Philippine Span Asia (Sulpicio Lines)** | Cargo & passenger | One of the oldest and largest shipping companies in PH |
+
+#### Port & Infrastructure
+
+| Client | Type | Significance |
+|--------|------|-------------|
+| **Cebu Port Authority (CPA)** | Port administrator | Manages all ports in Cebu province |
+| **OPASCOR** | Terminal operator | Main cargo handler at Cebu International Port |
+
+#### Industrial
+
+| Client | Type | Significance |
+|--------|------|-------------|
+| **Holcim Philippines** | Cement/construction | Pier cleaning & maintenance for a global building materials leader |
+
+**Why this matters:** No local competitor displays a client list of this caliber. Showing logos of 10 major shipping lines plus Cebu's port authority instantly communicates scale, trust, and reliability. This is the kind of social proof that closes deals.
+
+**How to feature:** A dedicated "Trusted By" or "Our Clients" logo strip on the homepage, plus a more detailed clients page with brief case descriptions per sector (shipping, port infrastructure, industrial).
 
 ### Trust Signals to Display
 
+- Client logos from major shipping lines, port authorities, and industrial companies
 - Classification society approvals (if held)
 - Safety certifications
 - Insurance coverage
-- Client logos (with permission)
 - Project case studies with photos
 - Years of combined team experience
 
@@ -249,10 +287,11 @@ After analyzing commercial diving companies across Cebu/Visayas, the Philippines
 | Modern, clean website design | **Rare in PH** | Build premium site |
 | Local/regional pride messaging | **Unused** | "Cebu's diving experts" |
 | Geometric/abstract logo | **Rare** | Stand out from diver silhouettes |
+| Major client logo display | **Rare in PH** | Show 13 trusted clients including top shipping lines |
 
 ### Competitive Edge Summary
 
-> **Oceantech can own the "heritage + modern capability" positioning that no competitor currently claims.** While others say "since 1998" or "since 1993," Oceantech can say **"diving since 1981"** — and back it up with a visual identity that feels both established and contemporary.
+> **Oceantech can own the "heritage + modern capability" positioning that no competitor currently claims.** While others say "since 1998" or "since 1993," Oceantech can say **"diving since 1981"** — and back it up with a client roster that includes 10 of the Philippines' top shipping lines, both Cebu port entities, and a global industrial client. No local competitor can match this combination of heritage and proven track record.
 
 ---
 

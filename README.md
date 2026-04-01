@@ -1,16 +1,41 @@
-# Oceantech Commercial Diving
+# Oceantech Offshore Diving Services
 
-Commercial website for Oceantech Commercial Diving — underwater welding, hull cleaning, structural repair, and precision marine operations.
+Commercial website for Oceantech Offshore Diving Services — underwater welding, hull cleaning, pier maintenance, structural repair, and precision marine operations.
 
 ## About
 
-Oceantech Commercial Diving is a newly established company backed by decades of hands-on experience. The team behind Oceantech has been active in recreational scuba diving since 1981 — operating out of Crispina Aquatics at Costabella Tropical Beach Resort in Maribago, Mactan Island. The founders are the first PADI-certified instructors in the Philippines, pioneering recreational diving in the Cebu region.
+Oceantech Offshore Diving Services is a newly established company backed by decades of hands-on experience. The team behind Oceantech has been active in recreational scuba diving since 1981 — operating out of Crispina Aquatics at Costabella Tropical Beach Resort in Maribago, Mactan Island. The founders are the first PADI-certified instructors in the Philippines, pioneering recreational diving in the Cebu region.
 
-The team has been performing commercial diving work — including underwater welding, hull cleaning, and other underwater commercial services — since 2016.
+The team has been performing commercial diving work — including underwater welding, hull cleaning, pier cleaning, and other underwater commercial services — since 2016.
 
 While the company is new, the expertise is not. This is a family business with 45 years in the water.
 
 The main dive shop is located in Maribago, Lapu-Lapu City, Cebu, Philippines.
+
+## Clients
+
+Oceantech has serviced most of the major shipping companies in the Philippines, as well as port infrastructure and industrial clients:
+
+### Shipping Lines
+- **2GO Group** — largest shipping conglomerate in the Philippines
+- **SuperCat** — fast-craft ferries (Visayas)
+- **OceanJet** — fast-craft ferries (Cebu-based)
+- **Trans-Asia Shipping Lines** — passenger & cargo (Cebu-based)
+- **Lite Ferries** — RORO ferries (Cebu-based)
+- **Cokaliong Shipping Lines** — inter-island passenger & cargo (Cebu-based)
+- **FastCat** — RORO ferries (nationwide)
+- **Starlite Ferries** — RORO ferries (Batangas-Mindoro-Visayas)
+- **Weesam Express** — fast-craft ferries (Visayas)
+- **Philippine Span Asia (formerly Sulpicio Lines)** — cargo & passenger (nationwide)
+
+### Port & Infrastructure
+- **Cebu Port Authority (CPA)** — manages all ports in Cebu province
+- **OPASCOR** — terminal operator at Cebu International Port
+
+### Industrial
+- **Holcim Philippines** — pier cleaning and maintenance for one of the country's largest cement companies
+
+Client logos are stored in `apps/brand-1/public/logos/clients/`.
 
 ## Tech Stack
 
