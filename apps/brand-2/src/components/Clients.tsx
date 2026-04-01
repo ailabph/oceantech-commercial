@@ -16,7 +16,7 @@ const clients = [
 
 export default function Clients() {
   return (
-    <section className="bg-[#111111] py-10">
+    <section className="bg-[#111111] py-14 border-t border-b border-divider">
       <div className="mx-auto max-w-7xl px-6">
         <p className="font-heading text-xs uppercase tracking-[0.15em] text-silver text-center mb-8">
           Deployed by the operators who move the Philippines
@@ -31,7 +31,7 @@ export default function Clients() {
               <img
                 src={client.src}
                 alt={client.alt}
-                className="h-8 w-auto object-contain"
+                className="h-10 w-auto object-contain"
                 loading="lazy"
               />
             </div>
