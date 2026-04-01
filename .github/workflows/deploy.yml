@@ -5,37 +5,56 @@ on:
     branches: [main]
 
 jobs:
-  deploy:
+  deploy-brand-1:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Setup SSH
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build brand-1
         run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/deploy_key
-          chmod 600 ~/.ssh/deploy_key
-          cat > ~/.ssh/config << SSHEOF
-          Host jump
-            HostName ${{ secrets.JUMP_HOST }}
-            User root
-            IdentityFile ~/.ssh/deploy_key
-            StrictHostKeyChecking no
-          Host vps
-            HostName ${{ secrets.VPS_HOST }}
-            User ${{ secrets.VPS_USER }}
-            IdentityFile ~/.ssh/deploy_key
-            ProxyJump jump
-            StrictHostKeyChecking no
-          SSHEOF
+          cd apps/brand-1
+          npm install
+          npm run build
+      - name: Deploy brand-1 to Cloudflare Pages
+        run: npx wrangler pages deploy apps/brand-1/out --project-name=oceantech-brand-1 --branch=main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
 
-      - name: Pull latest code
-        run: ssh vps "cd ~/oceantech-commercial && git pull"
+  deploy-brand-2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build brand-2
+        run: |
+          cd apps/brand-2
+          npm install
+          npm run build
+      - name: Deploy brand-2 to Cloudflare Pages
+        run: npx wrangler pages deploy apps/brand-2/out --project-name=oceantech-brand-2 --branch=main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
 
-      - name: Deploy brand-1
-        run: ssh vps "cd ~/oceantech-commercial/apps/brand-1 && npm install && npm run build && systemctl --user restart oceantech-brand-1"
-
-      - name: Deploy brand-2
-        run: ssh vps "cd ~/oceantech-commercial/apps/brand-2 && npm install && npm run build && systemctl --user restart oceantech-brand-2"
-
-      - name: Deploy brand-3
-        run: ssh vps "cd ~/oceantech-commercial/apps/brand-3 && npm install && npm run build && systemctl --user restart oceantech-brand-3"
+  deploy-brand-3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build brand-3
+        run: |
+          cd apps/brand-3
+          npm install
+          npm run build
+      - name: Deploy brand-3 to Cloudflare Pages
+        run: npx wrangler pages deploy apps/brand-3/out --project-name=oceantech-brand-3 --branch=main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
