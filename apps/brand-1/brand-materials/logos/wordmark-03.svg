@@ -1,0 +1,7 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path fill="#0A4D68" d="M70,110 V230 H230 V110 H190 V190 H110 V110 H70 Z"/>
+<path fill="#E85D04" d="M130,110 V190 H170 V110 H130 Z"/>
+<path fill="#54312A" d="M70,70 H230 V110 H70 Z M130,190 H170 V230 H130 Z"/>
+</g>
+</svg>

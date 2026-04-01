@@ -1,0 +1,45 @@
+<svg width="600" height="180" viewBox="0 0 600 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Work+Sans:wght@600&display=swap');
+    </style>
+  </defs>
+  
+  <!-- Main Wordmark -->
+  <text 
+    x="300" 
+    y="85" 
+    font-family="Bitter, serif" 
+    font-weight="700" 
+    font-size="64" 
+    fill="#1B4332" 
+    text-anchor="middle"
+  >
+    OCEANTECH
+  </text>
+  
+  <!-- Horizontal Rule -->
+  <line 
+    x1="105" 
+    y1="105" 
+    x2="495" 
+    y2="105" 
+    stroke="#C1440E" 
+    stroke-width="1.5" 
+  />
+  
+  <!-- Tagline -->
+  <text 
+    x="300" 
+    y="136" 
+    font-family="'Work Sans', sans-serif" 
+    font-weight="600" 
+    font-size="16" 
+    fill="#D4A574" 
+    letter-spacing="3" 
+    text-anchor="middle" 
+    text-transform="uppercase"
+  >
+    COMMERCIAL DIVING · EST. 1980
+  </text>
+</svg>

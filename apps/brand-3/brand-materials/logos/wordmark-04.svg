@@ -1,0 +1,16 @@
+<svg width="620" height="200" viewBox="0 0 620 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Work+Sans:wght@500&display=swap');
+    </style>
+  </defs>
+  <g id="logo-lockup">
+    <path d="M125 40 H115 V50 M495 40 H505 V50 M125 160 H115 V150 M495 160 H505 V150" stroke="#3C2415" stroke-width="1.5" fill="none" />
+    <text x="310" y="95" fill="#1B4332" text-anchor="middle" font-family="'Bitter', serif" font-size="60" font-weight="700">OCEANTECH</text>
+    <g stroke="#C1440E" stroke-width="1.5">
+      <line x1="135" y1="118" x2="485" y2="118" />
+      <line x1="135" y1="122" x2="485" y2="122" />
+    </g>
+    <text x="310" y="145" fill="#D4A574" text-anchor="middle" font-family="'Work Sans', sans-serif" font-size="14" font-weight="500" letter-spacing="4">MARIBAGO, CEBU · EST. 1980</text>
+  </g>
+</svg>

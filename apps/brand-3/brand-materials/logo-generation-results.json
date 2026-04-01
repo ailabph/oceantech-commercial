@@ -1,0 +1,66 @@
+[
+  {
+    "index": 1,
+    "label": "Badge - Round",
+    "filename": "concept-01.png",
+    "original_prompt": "A vintage-style round badge logo for a commercial diving company called OCEANTECH. Rugged hand-crafted aesthetic, deep green (#1B4332) and warm cream (#FAF3E8). Weathered texture, rope or circle border detail. Simple monoline illustration of ocean depth in center. Flat vector, vintage badge style, on white background",
+    "revised_prompt": "Illustrate a vintage-style round badge logo for a commercial diving company named OCEANTECH. Emphasize on a rugged hand-crafted aesthetic and employ deep green (#1B4332) and warm cream (#FAF3E8) colors. It should feature a weathered texture and a border detail that evokes ropes or circles. In the center, include a simple monoline illustration depicting the ocean depth. The image should be presented as a flat vector graphic in a vintage badge style set against a contrasting white background, therefore giving it a striking appearance.",
+    "success": true
+  },
+  {
+    "index": 2,
+    "label": "Badge - Rectangular",
+    "filename": "concept-02.png",
+    "original_prompt": "A rugged rectangular badge logo for OCEANTECH COMMERCIAL DIVING with EST. 1980. Deep sea green and rust orange color scheme. Vintage workwear patch aesthetic, bold condensed type, simple geometric ocean motif. Flat vector, worn heritage feel, on white background",
+    "revised_prompt": "Create a rectangular badge logo for a company named OCEANTECH COMMERCIAL DIVING, established in 1980. Utilize a deep sea green and rust orange color scheme to express a vintage workwear patch aesthetic. The logo design should incorporate bold condensed type text and a simple geometric ocean motif. Note that the final image should be a flat vector with a worn, heritage feel and is to be set against a white background.",
+    "success": true
+  },
+  {
+    "index": 3,
+    "label": "Wordmark - Rugged",
+    "filename": "concept-03.png",
+    "original_prompt": "A bold rugged wordmark logo for 'OCEANTECH' in a heavy slab-serif or characterful sans-serif font. Deep green (#1B4332) with subtle weathered texture. Simple, strong, could be stamped on a gear bag. Flat vector, no icons, on white background",
+    "revised_prompt": "Design a bold and rugged wordmark logo for a company named 'OCEANTECH'. Utilize a heavy slab-serif or dynamic sans-serif font, giving it a sense of strength and durability. Color it in deep green (#1B4332), and incorporate a subtle weathered texture, as if it could withstand the high seas. This logo should be simple yet strong enough to be effectively stamped on a gear bag. Render the logo as a flat vector, not including any icons, and place it on a plain white background.",
+    "success": true
+  },
+  {
+    "index": 4,
+    "label": "Icon - Minimal",
+    "filename": "concept-04.png",
+    "original_prompt": "A simple bold icon logo mark of a stylized downward arrow or descent symbol combined with an O shape. Deep sea green (#1B4332) and rust orange (#C1440E). Rugged, bold weight, simple, could be embroidered on a work shirt. Flat vector, minimal, on white background",
+    "revised_prompt": "Generate a strong and bold icon logo mark. The logo should feature a stylized downward arrow or descent symbol combined with an 'O' shape. The color palette should primarily include deep sea green and rust orange. The logo should be rugged, bold in weight, and simple enough that it could be embroidered on a work shirt. The design should be a flat vector with a minimal style and it must be situated on a white background. Picture a symbol that conveys strength, simplicity, and functionality.",
+    "success": true
+  },
+  {
+    "index": 5,
+    "label": "Combination - Horizontal",
+    "filename": "concept-05.png",
+    "original_prompt": "A horizontal combination logo with a simple bold icon and 'OCEANTECH' in heavy characterful type. Deep green and rust orange. Rugged outdoor brand aesthetic like Patagonia. Clean but with character, not corporate. Flat vector, on white background",
+    "revised_prompt": "Create an image of a horizontal combination logo with a heavily bolded icon on the left and the text 'OCEANTECH' in robust, characterful type to its right. The color scheme should prominently feature deep green and rust orange, hinting at an outdoor, rugged brand aesthetic similar to outdoor clothing brands from the early 20th century. Despite its strong character, the logo design needs to be clean, avoiding a corporate feel. The entire logo should be rendered in flat vector style, placed on a white background.",
+    "success": true
+  },
+  {
+    "index": 6,
+    "label": "Combination - Stacked",
+    "filename": "concept-06.png",
+    "original_prompt": "A stacked logo with a simple bold icon above 'OCEANTECH' in heavy type with 'COMMERCIAL DIVING' smaller below. Deep sea green (#1B4332) main with sand (#D4A574) and rust (#C1440E) accents. Heritage outdoor brand feel, workwear aesthetic. Flat vector, on white background",
+    "revised_prompt": "Create a stacked logo for a company named 'OCEANTECH'. Above the text, place a bold, uncomplicated icon. Then write 'OCEANTECH' in large, heavy letters and below it write 'COMMERCIAL DIVING' in a smaller font size. For colors, use a deep-sea green palette, specifically hex color #1B4332, and use two accent colors - sand (hex color #D4A574) and rust (hex color #C1440E). The logo should evoke the feeling of a heritage outdoor brand and demonstrate workwear aesthetics. Lastly, it should be in a flat vector style placed onto a white background.",
+    "success": true
+  },
+  {
+    "index": 7,
+    "label": "Stamp - Circular",
+    "filename": "concept-07.png",
+    "original_prompt": "A circular rubber stamp style logo for OCEANTECH EST. 1980. Text arranged in a circle with a simple central motif suggesting ocean depth. Deep green and cream. Weathered, authentic, hand-stamped feel. Flat vector, vintage, on white background",
+    "revised_prompt": "Design a logo in the style of a circular rubber stamp for a company named 'OCEANTECH'. The year of establishment '1980' should be incorporated within the design. The text should be arranged in a circle around a simplistic central motif that represents the depths of the ocean. The color palette should consist of deep green and cream with a vintage, weathered look giving an impression of being hand-stamped. The artwork should be delivered in the form of a flat vector image, giving it an overall vintage feel, preferably on a white background.",
+    "success": true
+  },
+  {
+    "index": 8,
+    "label": "Monoline - Illustration",
+    "filename": "concept-08.png",
+    "original_prompt": "A monoline illustration style logo for a diving company. Simple single-weight line drawing suggesting ocean, depth, and craft enclosed in a rounded shape. Deep green (#1B4332) lines on white background. Artistic, hand-drawn feel, minimal, clean monoline style",
+    "revised_prompt": "Create a monoline illustration style logo for a diving company. The design should be a simple, single-weight line drawing that suggests themes of the ocean, depth, and craft, all enclosed in a rounded shape. The lines should be in a deep green color (#1B4332) on a white background. Convey an artistic, hand-drawn feel to the logo, applying a minimal, clean monoline style.",
+    "success": true
+  }
+]

@@ -4,9 +4,11 @@ Commercial website for Oceantech Commercial Diving — underwater welding, hull 
 
 ## About
 
-Oceantech Commercial Diving is a newly established company backed by decades of hands-on experience. The team behind Oceantech has been active in recreational scuba diving since 1980 and has been performing commercial diving work — including underwater welding, hull cleaning, and other underwater commercial services — since 2016.
+Oceantech Commercial Diving is a newly established company backed by decades of hands-on experience. The team behind Oceantech has been active in recreational scuba diving since 1981 — operating out of Crispina Aquatics at Costabella Tropical Beach Resort in Maribago, Mactan Island. The founders are the first PADI-certified instructors in the Philippines, pioneering recreational diving in the Cebu region.
 
-While the company is new, the expertise is not.
+The team has been performing commercial diving work — including underwater welding, hull cleaning, and other underwater commercial services — since 2016.
+
+While the company is new, the expertise is not. This is a family business with 45 years in the water.
 
 The main dive shop is located in Maribago, Lapu-Lapu City, Cebu, Philippines.
 

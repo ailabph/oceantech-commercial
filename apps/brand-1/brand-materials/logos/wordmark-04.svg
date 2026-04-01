@@ -1,0 +1,5 @@
+<svg width="800" height="220" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
+  <text x="400" y="100" text-anchor="middle" font-family="Montserrat, sans-serif" font-weight="600" font-size="56px" fill="#2D3436" letter-spacing="0.15em">OCEANTECH</text>
+  <line x1="235" y1="125" x2="565" y2="125" stroke="#B87333" stroke-width="2"/>
+  <text x="400" y="150" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-style="italic" font-size="18px" fill="#2D3436">Est. 1980</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="600" height="120" viewBox="0 0 600 120" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <text
+    x="50%"
+    y="75"
+    font-family="'Bebas Neue', 'Oswald', Impact, 'Arial Black', sans-serif"
+    font-weight="900"
+    font-size="80px"
+    letter-spacing="0.15em"
+    fill="#0B1426"
+    text-anchor="middle">
+    OCEANTECH
+  </text>
+  <rect
+    x="15"
+    y="85"
+    width="570"
+    height="3"
+    fill="#D4A017" />
+</svg>
