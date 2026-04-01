@@ -526,6 +526,7 @@ The Oceantech voice is consistent across all communications. It reflects who we 
 | **Locally Proud** | Cebu-rooted, regionally capable. We own where we come from. | "From Maribago to every port in the Visayas." |
 | **Technically Credible** | Precise when the context demands it. We know the standards. | "AWS D3.6M certified wet welding, ADCI-compliant surface-supplied operations." |
 | **Warm** | Approachable and human. We build relationships, not just client lists. | "We're straightforward people, and we're happy to talk through what you need." |
+| **Heritage** | Pioneering credibility rooted in family and community. | "The first PADI instructors in the Philippines — a family tradition of diving excellence rooted in Cebu." |
 
 ### 6.2 Tone Spectrum
 
@@ -609,7 +610,7 @@ _Recreational diving since 1981. Commercial diving since 2016. The experience of
 > We handle the full range of commercial diving work — from routine hull cleaning to complex underwater welding and structural repair. Every job gets the same level of preparation, the same safety standards, and the same crew discipline.
 
 **About excerpt:**
-> Oceantech Commercial Diving was established in 2016, but our story starts much earlier. Our founders have been in the water since 1981 — first as recreational divers working Cebu's reefs, then as underwater professionals serving the maritime and construction industries across the Philippines.
+> Oceantech Commercial Diving was established in 2016, but our story starts much earlier. Our founders — the family behind Crispina Aquatics and the first PADI-certified instructors in the Philippines — have been in the water since 1981, first as recreational divers working Cebu's reefs, then as underwater professionals serving the maritime and construction industries across the Philippines.
 
 **CTA line:**
 > Whether you need a quote, want to discuss a scope of work, or just have a question about what's possible underwater — reach out.

@@ -53,7 +53,7 @@ Oceantech Commercial Diving was established in 2016, but our story starts much e
 When we formed Oceantech, the goal was straightforward: take everything we'd learned in those years and build a commercial diving company that does things the right way. No shortcuts on safety. No guesswork on execution. Just experienced divers, proper equipment, and honest work — the kind of outfit we'd want to hire if we were on the other side of the table.
 
 **Paragraph 3:**
-Based in Maribago, Lapu-Lapu City, we're proud to operate from the heart of the Central Visayas. Cebu's maritime heritage runs deep, and so does ours. We know these waters, we know this industry, and we show up ready to work.
+Based in Maribago, Lapu-Lapu City, we're proud to operate from the heart of the Central Visayas. Cebu's maritime heritage runs deep, and so does ours. This is a family business with deep roots in Cebu's diving community — and that personal connection to the water and the people who work on it is something no corporate outfit can replicate. We know these waters, we know this industry, and we show up ready to work.
 
 **Heritage Callout Line:**
 _Recreational diving since 1981. Commercial diving since 2016. The experience of a lifetime, working for you._
@@ -124,7 +124,7 @@ Six reasons to work with Oceantech.
 Every dive follows a safety management plan. Every crew member is trained to international standards. We've built our reputation on bringing people home — and we intend to keep it that way.
 
 ### 2. Certified and Qualified
-Our divers hold recognized commercial diving certifications, and our welders are coded to industry standards. We carry the paperwork because we've done the work to earn it.
+Our divers hold recognized commercial diving certifications, and our welders are coded to industry standards. We carry the paperwork because we've done the work to earn it. Our founders were the first PADI-certified instructors in the Philippines — a pioneering distinction that set the standard for professional diving in the country and remains a cornerstone of our credibility today.
 
 ### 3. Rapid Mobilization from Cebu
 Based in Lapu-Lapu City, we're positioned to respond fast across the Visayas and the wider Philippines. Local presence means shorter lead times, lower mobilization costs, and a team that knows the local waters and conditions.
