@@ -2,21 +2,21 @@ import Image from "next/image";
 
 export default function Footer() {
   const serviceLinks = [
-    "Underwater Welding",
-    "Hull Inspection",
-    "Pipeline Repair",
-    "NDT Services",
-    "Salvage Operations",
-    "Marine Construction",
+    { label: "Underwater Welding", href: "#services" },
+    { label: "Hull Inspection", href: "#services" },
+    { label: "Pipeline Repair", href: "#services" },
+    { label: "NDT Services", href: "#services" },
+    { label: "Salvage Operations", href: "#services" },
+    { label: "Marine Construction", href: "#services" },
   ];
 
   const companyLinks = [
-    "About Us",
-    "Our History",
-    "Safety Standards",
-    "Certifications",
-    "Careers",
-    "News",
+    { label: "About Us", href: "#about" },
+    { label: "Our History", href: "#about" },
+    { label: "Safety Standards", href: "#why-us" },
+    { label: "Certifications", href: "#why-us" },
+    { label: "Careers", href: "#contact" },
+    { label: "News", href: "#about" },
   ];
 
   return (
@@ -29,9 +29,10 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <Image
                 src="/images/logo-icon.png"
-                alt="Oceantech logo"
+                alt="Oceantech Offshore logo"
                 width={48}
                 height={48}
+                loading="lazy"
               />
               <div>
                 <p className="font-display text-white leading-none">
@@ -52,12 +53,12 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3">
               {serviceLinks.map((link) => (
-                <li key={link}>
+                <li key={link.label}>
                   <a
-                    href="#"
+                    href={link.href}
                     className="font-body text-sm text-silver hover:text-gold transition"
                   >
-                    {link}
+                    {link.label}
                   </a>
                 </li>
               ))}
@@ -71,12 +72,12 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3">
               {companyLinks.map((link) => (
-                <li key={link}>
+                <li key={link.label}>
                   <a
-                    href="#"
+                    href={link.href}
                     className="font-body text-sm text-silver hover:text-gold transition"
                   >
-                    {link}
+                    {link.label}
                   </a>
                 </li>
               ))}

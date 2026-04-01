@@ -129,8 +129,9 @@ export default function Services() {
               <div className="relative aspect-[16/10] md:aspect-[16/10] w-full">
                 <Image
                   src={service.image}
-                  alt={service.title}
+                  alt={`${service.title} — ${service.subtitle}`}
                   fill
+                  loading="lazy"
                   className="object-cover"
                 />
                 {/* Dark navy overlay */}
@@ -150,7 +151,7 @@ export default function Services() {
                   {service.description}
                 </p>
                 <a
-                  href="#"
+                  href="#contact"
                   className="mt-4 inline-flex items-center font-heading text-xs uppercase tracking-[0.1em] text-gold transition-colors hover:text-white"
                 >
                   Scope Assessment
@@ -188,8 +189,9 @@ export default function Services() {
             <div className="relative aspect-[21/7] w-full">
               <Image
                 src={fullWidthService.image}
-                alt={fullWidthService.title}
+                alt={`${fullWidthService.title} — ${fullWidthService.subtitle}`}
                 fill
+                loading="lazy"
                 className="object-cover"
               />
               {/* Dark navy overlay */}
@@ -209,7 +211,7 @@ export default function Services() {
                 {fullWidthService.description}
               </p>
               <a
-                href="#"
+                href="#contact"
                 className="mt-4 inline-flex items-center font-heading text-xs uppercase tracking-[0.1em] text-gold transition-colors hover:text-white"
               >
                 Scope Assessment
@@ -220,7 +222,7 @@ export default function Services() {
         </div>
 
         {/* Field Operations Strip */}
-        <div className="mt-12 grid grid-cols-2 md:grid-cols-5 gap-6">
+        <div className="mt-12 grid grid-cols-2 md:grid-cols-5 gap-6 overflow-hidden">
           {[
             { src: "/images/actual/actual-photo-3.jpg", alt: "Port and pier infrastructure with steel construction" },
             { src: "/images/actual/actual-photo-17.jpg", alt: "Barge with excavator on water" },
@@ -233,6 +235,7 @@ export default function Services() {
                 src={photo.src}
                 alt={photo.alt}
                 fill
+                loading="lazy"
                 className="object-cover grayscale-[30%] brightness-90"
               />
               <div className="pointer-events-none absolute inset-0 bg-navy/40" />

@@ -30,13 +30,13 @@ export default function CTA() {
         {/* Buttons */}
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
           <a
-            href="#"
+            href="tel:+63324951981"
             className="w-full sm:w-auto rounded-sm bg-rust px-8 py-4 font-body font-medium text-cream transition-colors hover:bg-rust-dark"
           >
             Talk to the Crew
           </a>
           <a
-            href="#"
+            href="mailto:crew@oceantech.ph"
             className="w-full sm:w-auto rounded-sm border-2 border-cream/50 px-8 py-4 font-body font-medium text-cream transition-colors hover:border-cream hover:bg-cream/10"
           >
             Get a Straight Quote

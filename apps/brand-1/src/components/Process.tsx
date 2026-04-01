@@ -72,6 +72,7 @@ export default function Process() {
                   <img
                     src="/images/actual/actual-photo-20.jpg"
                     alt="Diver entering water with plank during execution phase"
+                    loading="lazy"
                     className="hidden lg:block w-full aspect-[4/3] object-cover rounded-sm mt-4"
                   />
                 )}

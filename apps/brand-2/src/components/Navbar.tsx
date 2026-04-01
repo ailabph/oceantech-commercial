@@ -91,7 +91,14 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-10 h-20">
           {/* ── Logo ── */}
-          <a href="#" className="flex items-center gap-3 group">
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+            className="flex items-center gap-3 group"
+          >
             <Image
               src="/images/logo-icon.png"
               alt="Oceantech logo"

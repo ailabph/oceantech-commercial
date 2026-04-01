@@ -6,10 +6,10 @@ export default function CTA() {
       {/* Background image — real port infrastructure photo */}
       <Image
         src="/images/actual/actual-photo-7.jpg"
-        alt=""
+        alt="Port infrastructure with boats and scaffolding"
         fill
         className="object-cover"
-        priority={false}
+        loading="lazy"
       />
 
       {/* Warm teal/orange tint overlay to match brand palette */}

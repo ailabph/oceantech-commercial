@@ -131,7 +131,7 @@ const reasons = [
 
 export default function WhyUs() {
   return (
-    <section id="why" className="bg-teal py-24 px-6 md:px-12 lg:px-24">
+    <section id="why-us" className="bg-teal py-24 px-6 md:px-12 lg:px-24">
       <div className="mx-auto max-w-7xl">
         {/* Header */}
         <div className="mb-16 text-center">
@@ -175,11 +175,13 @@ export default function WhyUs() {
             <img
               src="/images/actual/actual-photo-1.jpg"
               alt="Crew member portrait wearing blue DIVER helmet on boat"
+              loading="lazy"
               className="h-16 w-16 rounded-full object-cover shadow-md ring-2 ring-copper/40"
             />
             <img
               src="/images/actual/actual-photo-13.jpg"
               alt="Intense close-up of diver wearing DIVER helmet"
+              loading="lazy"
               className="h-16 w-16 rounded-full object-cover shadow-md ring-2 ring-copper/40"
             />
             <p className="font-body text-sm text-white/60 max-w-xs text-center">
@@ -188,6 +190,7 @@ export default function WhyUs() {
             <img
               src="/images/actual/actual-photo-6.jpg"
               alt="Close-up crew member wearing DIVER helmet and CREW shirt"
+              loading="lazy"
               className="h-16 w-16 rounded-full object-cover shadow-md ring-2 ring-copper/40"
             />
           </div>

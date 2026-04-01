@@ -6,10 +6,10 @@ export default function CTA() {
       {/* Background Image */}
       <Image
         src="/images/actual/actual-photo-7.jpg"
-        alt="Water-level port infrastructure"
+        alt="Water-level port infrastructure with boats and scaffolding"
         fill
+        loading="lazy"
         className="object-cover brightness-75"
-        priority={false}
       />
 
       {/* Heavy Navy Overlay */}
@@ -18,9 +18,10 @@ export default function CTA() {
       {/* Crew inset photo */}
       <Image
         src="/images/actual/actual-photo-21.jpg"
-        alt="Two crew members in life vests"
+        alt="Two crew members in life vests preparing for dive operations"
         width={192}
         height={128}
+        loading="lazy"
         className="absolute bottom-6 right-6 w-48 h-32 object-cover border border-gold/20 brightness-75 hidden lg:block z-10"
       />
 

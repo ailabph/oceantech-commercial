@@ -1,20 +1,20 @@
 import Image from "next/image";
 
 const services = [
-  { label: "Underwater Inspection", href: "#" },
-  { label: "Hull Cleaning", href: "#" },
-  { label: "Salvage Operations", href: "#" },
-  { label: "Underwater Welding", href: "#" },
-  { label: "Marine Construction", href: "#" },
-  { label: "ROV Services", href: "#" },
+  { label: "Underwater Inspection", href: "#services" },
+  { label: "Hull Cleaning", href: "#services" },
+  { label: "Salvage Operations", href: "#services" },
+  { label: "Underwater Welding", href: "#services" },
+  { label: "Marine Construction", href: "#services" },
+  { label: "ROV Services", href: "#services" },
 ];
 
 const company = [
-  { label: "About Us", href: "#" },
-  { label: "Our Team", href: "#" },
-  { label: "Safety Record", href: "#" },
-  { label: "Certifications", href: "#" },
-  { label: "Careers", href: "#" },
+  { label: "About Us", href: "#about" },
+  { label: "Our Team", href: "#why-us" },
+  { label: "Safety Record", href: "#why-us" },
+  { label: "Certifications", href: "#about" },
+  { label: "Careers", href: "#contact" },
 ];
 
 export default function Footer() {

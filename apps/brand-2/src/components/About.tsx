@@ -53,6 +53,7 @@ export default function About() {
               src="/images/actual/actual-photo-4.jpg"
               alt="Two divers in wetsuits at pier site with safety signage"
               fill
+              loading="lazy"
               className="object-cover"
             />
             {/* Navy overlay at edges */}
@@ -62,7 +63,7 @@ export default function About() {
         </div>
 
         {/* Photo Strip */}
-        <div className="mt-12 flex gap-3">
+        <div className="mt-12 flex gap-3 overflow-hidden">
           {[
             { src: "/images/actual/actual-photo-9.jpg", alt: "Three divers on boat with blue helmets during bridge construction" },
             { src: "/images/actual/actual-photo-18.jpg", alt: "Diver at piling with vessel name visible" },
@@ -75,6 +76,7 @@ export default function About() {
                 src={photo.src}
                 alt={photo.alt}
                 fill
+                loading="lazy"
                 className="object-cover brightness-90 grayscale-[30%]"
               />
               <div className="pointer-events-none absolute inset-0 bg-navy/30" />

@@ -85,26 +85,31 @@ export default function WhyUs() {
           <img
             src="/images/actual/actual-photo-1.jpg"
             alt="Crew member portrait with blue DIVER helmet"
+            loading="lazy"
             className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover border-2 border-cream/20"
           />
           <img
             src="/images/actual/actual-photo-2.jpg"
             alt="Crew member smiling near the pier"
+            loading="lazy"
             className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover border-2 border-cream/20"
           />
           <img
             src="/images/actual/actual-photo-6.jpg"
             alt="Close-up crew member with DIVER helmet and CREW shirt"
+            loading="lazy"
             className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover border-2 border-cream/20"
           />
           <img
             src="/images/actual/actual-photo-13.jpg"
             alt="Intense close-up portrait of crew member"
+            loading="lazy"
             className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover border-2 border-cream/20"
           />
           <img
             src="/images/actual/actual-photo-14.jpg"
             alt="Crew member smiling in the water"
+            loading="lazy"
             className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover border-2 border-cream/20"
           />
         </div>

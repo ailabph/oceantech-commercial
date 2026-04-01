@@ -275,36 +275,42 @@ export default function Services() {
           <p className="mb-4 font-heading text-sm uppercase tracking-[0.2em] text-copper">
             From the Field
           </p>
-          <div className="flex flex-wrap items-center gap-3 lg:gap-4">
+          <div className="flex items-center gap-3 overflow-x-auto lg:flex-wrap lg:overflow-x-visible lg:gap-4">
             <img
               src="/images/actual/actual-photo-3.jpg"
               alt="Port and pier infrastructure with steel construction"
-              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+              loading="lazy"
+              className="h-32 w-auto shrink-0 rounded-sm object-cover shadow-sm"
             />
             <img
               src="/images/actual/actual-photo-11.jpg"
               alt="Diver submerging at pier during commercial dive operation"
-              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+              loading="lazy"
+              className="h-32 w-auto shrink-0 rounded-sm object-cover shadow-sm"
             />
             <img
               src="/images/actual/actual-photo-5.jpg"
               alt="Vessel WEST OCEAN 17 with diver entering water at pier"
-              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+              loading="lazy"
+              className="h-32 w-auto shrink-0 rounded-sm object-cover shadow-sm"
             />
             <img
               src="/images/actual/actual-photo-18.jpg"
               alt="Diver at piling with vessel during underwater inspection"
-              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+              loading="lazy"
+              className="h-32 w-auto shrink-0 rounded-sm object-cover shadow-sm"
             />
             <img
               src="/images/actual/actual-photo-8.jpg"
               alt="Barge with crane and heavy marine equipment"
-              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+              loading="lazy"
+              className="h-32 w-auto shrink-0 rounded-sm object-cover shadow-sm"
             />
             <img
               src="/images/actual/actual-photo-17.jpg"
               alt="Barge with excavator at marine construction site"
-              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+              loading="lazy"
+              className="h-32 w-auto shrink-0 rounded-sm object-cover shadow-sm"
             />
           </div>
           <p className="mt-3 font-body text-xs text-charcoal/40">

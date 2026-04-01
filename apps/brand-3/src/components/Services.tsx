@@ -84,7 +84,7 @@ const textServices = [
 
 export default function Services() {
   return (
-    <section id="services" className="bg-white py-20 md:py-28">
+    <section id="services" className="bg-white py-20 md:py-28 overflow-hidden">
       <div className="mx-auto max-w-6xl px-6">
         {/* Header */}
         <div className="mb-14">
@@ -109,7 +109,8 @@ export default function Services() {
             <div className="relative aspect-[4/3] md:aspect-[16/9] w-full">
               <img
                 src={imageServices[0].image}
-                alt={imageServices[0].title}
+                alt="Diver performing underwater welding on steel structure"
+                loading="lazy"
                 className="h-full w-full object-cover"
               />
               <div className="absolute inset-0 bg-espresso/60" />
@@ -120,9 +121,9 @@ export default function Services() {
                 <p className="mt-2 max-w-md font-body text-sm leading-relaxed text-cream/80">
                   {imageServices[0].description}
                 </p>
-                <span className="mt-4 inline-block font-body text-sm font-medium text-rust">
+                <a href="#contact" className="mt-4 inline-block font-body text-sm font-medium text-rust hover:text-rust-dark transition-colors">
                   Learn More &rarr;
-                </span>
+                </a>
               </div>
             </div>
           </div>
@@ -132,7 +133,8 @@ export default function Services() {
             <div className="relative aspect-[4/3] md:aspect-auto md:h-full w-full">
               <img
                 src={imageServices[1].image}
-                alt={imageServices[1].title}
+                alt="Diver cleaning marine growth from vessel hull"
+                loading="lazy"
                 className="h-full w-full object-cover"
               />
               <div className="absolute inset-0 bg-espresso/60" />
@@ -143,9 +145,9 @@ export default function Services() {
                 <p className="mt-2 font-body text-sm leading-relaxed text-cream/80">
                   {imageServices[1].description}
                 </p>
-                <span className="mt-4 inline-block font-body text-sm font-medium text-rust">
+                <a href="#contact" className="mt-4 inline-block font-body text-sm font-medium text-rust hover:text-rust-dark transition-colors">
                   Learn More &rarr;
-                </span>
+                </a>
               </div>
             </div>
           </div>
@@ -175,41 +177,49 @@ export default function Services() {
             <img
               src="/images/actual/actual-photo-3.jpg"
               alt="Port and pier infrastructure, steel construction"
+              loading="lazy"
               className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
             />
             <img
               src="/images/actual/actual-photo-11.jpg"
               alt="Diver submerging into the water"
+              loading="lazy"
               className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
             />
             <img
               src="/images/actual/actual-photo-7.jpg"
               alt="Water-level port infrastructure with boats and scaffolding"
+              loading="lazy"
               className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
             />
             <img
               src="/images/actual/actual-photo-20.jpg"
               alt="Diver entering the water from platform"
+              loading="lazy"
               className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
             />
             <img
               src="/images/actual/actual-photo-8.jpg"
               alt="Barge with crane and heavy marine equipment"
+              loading="lazy"
               className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
             />
             <img
               src="/images/actual/actual-photo-12.jpg"
               alt="Pier construction site with heavy equipment"
+              loading="lazy"
               className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
             />
             <img
               src="/images/actual/actual-photo-5.jpg"
               alt="Vessel WEST OCEAN 17, diver entering the water"
+              loading="lazy"
               className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
             />
             <img
               src="/images/actual/actual-photo-17.jpg"
               alt="Barge on the water during operations"
+              loading="lazy"
               className="h-40 w-auto object-cover rounded-sm shadow-sm saturate-[0.85] brightness-95 flex-shrink-0"
             />
           </div>
@@ -224,7 +234,8 @@ export default function Services() {
             <div className="relative aspect-[21/9] w-full">
               <img
                 src={imageServices[2].image}
-                alt={imageServices[2].title}
+                alt="Diver conducting underwater survey and NDT inspection on marine structure"
+                loading="lazy"
                 className="h-full w-full object-cover"
               />
               <div className="absolute inset-0 bg-espresso/60" />
@@ -235,9 +246,9 @@ export default function Services() {
                 <p className="mt-2 max-w-lg font-body text-base leading-relaxed text-cream/80">
                   {imageServices[2].description}
                 </p>
-                <span className="mt-4 inline-block font-body text-sm font-medium text-rust">
+                <a href="#contact" className="mt-4 inline-block font-body text-sm font-medium text-rust hover:text-rust-dark transition-colors">
                   Learn More &rarr;
-                </span>
+                </a>
               </div>
             </div>
           </div>

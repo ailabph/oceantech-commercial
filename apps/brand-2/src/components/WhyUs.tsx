@@ -123,7 +123,7 @@ export default function WhyUs() {
   ];
 
   return (
-    <section id="why-us" className="bg-[#111111] py-24 px-6 md:px-12 lg:px-20">
+    <section id="why-us" className="bg-[#111111] py-24 px-6 md:px-12 lg:px-20 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-16">
@@ -142,6 +142,7 @@ export default function WhyUs() {
                 src="/images/actual/actual-photo-6.jpg"
                 alt="Crew member with DIVER helmet"
                 fill
+                loading="lazy"
                 className="object-cover"
               />
             </div>
@@ -150,6 +151,7 @@ export default function WhyUs() {
                 src="/images/actual/actual-photo-1.jpg"
                 alt="Crew member portrait with blue DIVER helmet"
                 fill
+                loading="lazy"
                 className="object-cover"
               />
             </div>
@@ -158,6 +160,7 @@ export default function WhyUs() {
                 src="/images/actual/actual-photo-15.jpg"
                 alt="Crew at water level with DIVER helmet"
                 fill
+                loading="lazy"
                 className="object-cover"
               />
             </div>

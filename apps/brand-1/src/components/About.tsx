@@ -86,31 +86,36 @@ export default function About() {
 
         {/* ── Photo strip: actual operations ── */}
         <div className="mt-14">
-          <div className="flex flex-wrap items-center gap-3 lg:gap-4">
+          <div className="flex items-center gap-3 overflow-x-auto lg:flex-wrap lg:overflow-x-visible lg:gap-4">
             <img
               src="/images/actual/actual-photo-4.jpg"
               alt="Two divers in wetsuits at pier construction site with safety signs"
-              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+              loading="lazy"
+              className="h-32 w-auto shrink-0 rounded-sm object-cover shadow-sm"
             />
             <img
               src="/images/actual/actual-photo-14.jpg"
               alt="Smiling female crew member in the water during operations"
-              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+              loading="lazy"
+              className="h-32 w-auto shrink-0 rounded-sm object-cover shadow-sm"
             />
             <img
               src="/images/actual/actual-photo-10.jpg"
               alt="Dive platform with scuba tanks and equipment, diver prepping"
-              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+              loading="lazy"
+              className="h-32 w-auto shrink-0 rounded-sm object-cover shadow-sm"
             />
             <img
               src="/images/actual/actual-photo-21.jpg"
               alt="Two crew members in life vests under bridge during operations"
-              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+              loading="lazy"
+              className="h-32 w-auto shrink-0 rounded-sm object-cover shadow-sm"
             />
             <img
               src="/images/actual/actual-photo-7.jpg"
               alt="Water-level shot of port infrastructure with boats and scaffolding"
-              className="h-32 w-auto rounded-sm object-cover shadow-sm"
+              loading="lazy"
+              className="h-32 w-auto shrink-0 rounded-sm object-cover shadow-sm"
             />
           </div>
           <p className="mt-3 font-body text-xs text-charcoal/40">

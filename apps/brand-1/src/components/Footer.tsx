@@ -11,9 +11,9 @@ const services = [
 const company = [
   { label: "About Us", href: "#about" },
   { label: "Our Process", href: "#process" },
-  { label: "Why Oceantech", href: "#why" },
-  { label: "Careers", href: "#careers" },
-  { label: "Safety Policy", href: "#safety" },
+  { label: "Why Oceantech", href: "#why-us" },
+  { label: "Careers", href: "#contact" },
+  { label: "Safety Policy", href: "#contact" },
 ];
 
 export default function Footer() {

@@ -71,16 +71,18 @@ export default function Process() {
         </div>
 
         {/* Between Dives — Candid Photo Strip */}
-        <div className="flex gap-3 justify-center mt-8">
+        <div className="flex gap-3 justify-center mt-8 overflow-hidden">
           <img
             src="/images/actual/actual-photo-16.jpg"
             alt="Crew resting on platform between dives"
-            className="h-36 w-auto rounded-sm object-cover saturate-[0.85]"
+            loading="lazy"
+            className="h-36 w-auto rounded-sm object-cover saturate-[0.85] min-w-0"
           />
           <img
             src="/images/actual/actual-photo-15.jpg"
             alt="Crew members at water level"
-            className="h-36 w-auto rounded-sm object-cover saturate-[0.85]"
+            loading="lazy"
+            className="h-36 w-auto rounded-sm object-cover saturate-[0.85] min-w-0"
           />
         </div>
         <p className="font-heading italic text-espresso/30 text-xs text-center mt-2">

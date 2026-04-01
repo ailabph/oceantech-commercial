@@ -82,46 +82,55 @@ export default function About() {
             <img
               src="/images/actual/actual-photo-1.jpg"
               alt="Crew member portrait wearing blue DIVER helmet"
+              loading="lazy"
               className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
             />
             <img
               src="/images/actual/actual-photo-2.jpg"
               alt="Crew member selfie, smiling near the pier with DIVER helmet"
+              loading="lazy"
               className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
             />
             <img
               src="/images/actual/actual-photo-14.jpg"
-              alt="Smiling female crew member in the water — incredible authenticity"
+              alt="Smiling female crew member in the water"
+              loading="lazy"
               className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
             />
             <img
               src="/images/actual/actual-photo-4.jpg"
               alt="Two divers in wetsuits at pier site with safety signs"
+              loading="lazy"
               className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
             />
             <img
               src="/images/actual/actual-photo-16.jpg"
               alt="Candid crew downtime moment on site"
+              loading="lazy"
               className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
             />
             <img
               src="/images/actual/actual-photo-10.jpg"
               alt="Dive platform with scuba tanks, diver prepping equipment"
+              loading="lazy"
               className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
             />
             <img
               src="/images/actual/actual-photo-21.jpg"
               alt="Two crew members working under bridge structure"
+              loading="lazy"
               className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
             />
             <img
               src="/images/actual/actual-photo-5.jpg"
               alt="Vessel WEST OCEAN 17, diver entering the water"
+              loading="lazy"
               className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
             />
             <img
               src="/images/actual/actual-photo-18.jpg"
               alt="Diver working at piling underwater"
+              loading="lazy"
               className="aspect-square object-cover rounded-sm saturate-[0.85] brightness-95"
             />
           </div>
