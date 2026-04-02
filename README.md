@@ -37,9 +37,22 @@ Oceantech has serviced most of the major shipping companies in the Philippines, 
 
 Client logos are stored in `apps/brand-1/public/logos/clients/`.
 
+## Live Site
+
+**https://oceantechoffshore.com** — running **brand-2** "Industrial Precision" (selected main theme)
+
+| Brand | URL | Theme | Status |
+|-------|-----|-------|--------|
+| **brand-2** | [oceantechoffshore.com](https://oceantechoffshore.com) | Industrial Precision (navy/gold, dark mode) | **Live — main site** |
+| brand-1 | [brand-1.oceantechoffshore.com](https://brand-1.oceantechoffshore.com) | Heritage Warmth (teal/orange) | Alternative |
+| brand-3 | [brand-3.oceantechoffshore.com](https://brand-3.oceantechoffshore.com) | Rugged Authenticity (green/rust) | Alternative |
+
 ## Tech Stack
 
 - [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Cloudflare Pages](https://pages.cloudflare.com/) (deployment)
+- [GitHub Actions](https://github.com/features/actions) (CI/CD)
 
 ## Branding
 

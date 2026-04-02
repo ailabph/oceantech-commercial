@@ -210,22 +210,22 @@ Production-ready assets from `brand-materials/` are copied into `public/` for th
 
 Each app deploys independently to its own subdomain:
 
-| App | Subdomain | Purpose |
-|-----|-----------|---------|
-| `main-brand` | `main.oceantech.com` | Primary brand concept |
-| `brand-1` | `brand1.oceantech.com` | Alternative concept 1 |
-| `brand-2` | `brand2.oceantech.com` | Alternative concept 2 |
-| `brand-3` | `brand3.oceantech.com` | Alternative concept 3 |
+| App | URL | Status |
+|-----|-----|--------|
+| **`brand-2`** | **`oceantechoffshore.com`** | **LIVE — selected main theme (Industrial Precision)** |
+| `brand-1` | `brand-1.oceantechoffshore.com` | Alternative (Heritage Warmth) |
+| `brand-2` | `brand-2.oceantechoffshore.com` | Mirror of main |
+| `brand-3` | `brand-3.oceantechoffshore.com` | Alternative (Rugged Authenticity) |
 
-Once the owner selects a brand, that app gets deployed to the main domain (`oceantech.com`). The other subdomains can be taken down or kept as archives.
+The owner selected **brand-2 "Industrial Precision"** as the main site. It is deployed to the root domain `oceantechoffshore.com`. Other brands remain accessible on subdomains.
 
-### Vercel Deployment
+### Cloudflare Pages Deployment
 
-Each app in `apps/` is configured as a separate Vercel project pointing to the same repo:
+Each app deploys as a separate Cloudflare Pages project via GitHub Actions:
 
-- Root directory: `apps/main-brand`, `apps/brand-1`, etc.
-- Turborepo is natively supported by Vercel
-- Environment variables set per project
+- Build: `npm run build` → `apps/brand-X/out/` (static export)
+- Deploy: `wrangler pages deploy out --project-name=oceantech-brand-X`
+- DNS: CNAME to `oceantech-brand-X.pages.dev` (Cloudflare proxied)
 
 ---
 

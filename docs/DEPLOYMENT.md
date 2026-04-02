@@ -4,11 +4,12 @@
 
 Each brand is a standalone Next.js app deployed to Cloudflare Pages via GitHub Actions.
 
-| Brand | URL | CF Pages Project |
-|-------|-----|-----------------|
-| brand-1 | https://brand-1.oceantechoffshore.com | oceantech-brand-1 |
-| brand-2 | https://brand-2.oceantechoffshore.com | oceantech-brand-2 |
-| brand-3 | https://brand-3.oceantechoffshore.com | oceantech-brand-3 |
+| Brand | URL | CF Pages Project | Status |
+|-------|-----|-----------------|--------|
+| **brand-2** | **https://oceantechoffshore.com** | oceantech-brand-2 | **LIVE — selected main theme** |
+| brand-1 | https://brand-1.oceantechoffshore.com | oceantech-brand-1 | Alternative |
+| brand-2 | https://brand-2.oceantechoffshore.com | oceantech-brand-2 | Alternative (mirror of main) |
+| brand-3 | https://brand-3.oceantechoffshore.com | oceantech-brand-3 | Alternative |
 
 ---
 
