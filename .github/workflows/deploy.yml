@@ -3,58 +3,116 @@ name: Deploy
 on:
   push:
     branches: [main]
+    paths:
+      - 'apps/**'
+      - '.github/workflows/deploy.yml'
+
+# Cancel in-flight deploys when a new push arrives
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
+  # ── Detect which brands changed ──────────────────────────────
+  changes:
+    runs-on: ubuntu-latest
+    outputs:
+      brand-1: ${{ steps.filter.outputs.brand-1 }}
+      brand-2: ${{ steps.filter.outputs.brand-2 }}
+      brand-3: ${{ steps.filter.outputs.brand-3 }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dorny/paths-filter@v3
+        id: filter
+        with:
+          filters: |
+            brand-1:
+              - 'apps/brand-1/src/**'
+              - 'apps/brand-1/public/**'
+              - 'apps/brand-1/package.json'
+              - 'apps/brand-1/package-lock.json'
+              - 'apps/brand-1/next.config.ts'
+              - 'apps/brand-1/postcss.config.mjs'
+              - 'apps/brand-1/tsconfig.json'
+            brand-2:
+              - 'apps/brand-2/src/**'
+              - 'apps/brand-2/public/**'
+              - 'apps/brand-2/package.json'
+              - 'apps/brand-2/package-lock.json'
+              - 'apps/brand-2/next.config.ts'
+              - 'apps/brand-2/postcss.config.mjs'
+              - 'apps/brand-2/tsconfig.json'
+            brand-3:
+              - 'apps/brand-3/src/**'
+              - 'apps/brand-3/public/**'
+              - 'apps/brand-3/package.json'
+              - 'apps/brand-3/package-lock.json'
+              - 'apps/brand-3/next.config.ts'
+              - 'apps/brand-3/postcss.config.mjs'
+              - 'apps/brand-3/tsconfig.json'
+
+  # ── Deploy brand-1 ───────────────────────────────────────────
   deploy-brand-1:
+    needs: changes
+    if: needs.changes.outputs.brand-1 == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Build brand-1
-        run: |
-          cd apps/brand-1
-          npm install
-          npm run build
-      - name: Deploy brand-1 to Cloudflare Pages
-        run: npx wrangler pages deploy apps/brand-1/out --project-name=oceantech-brand-1 --branch=main
+          cache: npm
+          cache-dependency-path: apps/brand-1/package-lock.json
+      - name: Install
+        run: npm ci --prefix apps/brand-1
+      - name: Build
+        run: npm run build --prefix apps/brand-1
+      - name: Deploy
+        run: npx wrangler@3 pages deploy apps/brand-1/out --project-name=oceantech-brand-1 --branch=main
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
 
+  # ── Deploy brand-2 (main site) ──────────────────────────────
   deploy-brand-2:
+    needs: changes
+    if: needs.changes.outputs.brand-2 == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Build brand-2
-        run: |
-          cd apps/brand-2
-          npm install
-          npm run build
-      - name: Deploy brand-2 to Cloudflare Pages
-        run: npx wrangler pages deploy apps/brand-2/out --project-name=oceantech-brand-2 --branch=main
+          cache: npm
+          cache-dependency-path: apps/brand-2/package-lock.json
+      - name: Install
+        run: npm ci --prefix apps/brand-2
+      - name: Build
+        run: npm run build --prefix apps/brand-2
+      - name: Deploy
+        run: npx wrangler@3 pages deploy apps/brand-2/out --project-name=oceantech-brand-2 --branch=main
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
 
+  # ── Deploy brand-3 ───────────────────────────────────────────
   deploy-brand-3:
+    needs: changes
+    if: needs.changes.outputs.brand-3 == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Build brand-3
-        run: |
-          cd apps/brand-3
-          npm install
-          npm run build
-      - name: Deploy brand-3 to Cloudflare Pages
-        run: npx wrangler pages deploy apps/brand-3/out --project-name=oceantech-brand-3 --branch=main
+          cache: npm
+          cache-dependency-path: apps/brand-3/package-lock.json
+      - name: Install
+        run: npm ci --prefix apps/brand-3
+      - name: Build
+        run: npm run build --prefix apps/brand-3
+      - name: Deploy
+        run: npx wrangler@3 pages deploy apps/brand-3/out --project-name=oceantech-brand-3 --branch=main
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
