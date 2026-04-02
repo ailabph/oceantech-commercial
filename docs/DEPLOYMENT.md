@@ -81,3 +81,23 @@ then update CF_API_TOKEN in the repo GitHub Actions secrets.
     cd apps/brand-1
     npm run build
     npx wrangler pages deploy out --project-name=oceantech-brand-1
+
+---
+
+## DNS Records
+
+| Record | Type | Target | Proxied |
+|--------|------|--------|---------|
+| oceantechoffshore.com | CNAME | oceantech-brand-2.pages.dev | Yes |
+| www.oceantechoffshore.com | CNAME | oceantech-brand-2.pages.dev | Yes |
+| brand-1.oceantechoffshore.com | CNAME | oceantech-brand-1.pages.dev | Yes |
+| brand-2.oceantechoffshore.com | CNAME | oceantech-brand-2.pages.dev | Yes |
+| brand-3.oceantechoffshore.com | CNAME | oceantech-brand-3.pages.dev | Yes |
+
+### Adding a new apex/root domain to CF Pages
+
+CF Pages cannot verify a proxied CNAME at the zone apex. Workaround:
+
+1. Set the root CNAME to DNS-only (unproxied) in Cloudflare DNS
+2. Add the domain to the CF Pages project — verification will pass
+3. Re-enable proxy (orange cloud) on the CNAME
